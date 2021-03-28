@@ -1,0 +1,205 @@
+footer {
+  background-color: #333333;
+}
+footer .container {
+  width: 100%;
+  max-width: 1170px;
+  margin: auto;
+  box-sizing: border-box;
+  /* display: flex; */
+}
+footer .container .row {
+  /* margin: 0 15px; */
+  display: flex;
+}
+footer .container .row img {
+  margin-top: 62px;
+  margin-right: 119px;
+}
+footer .container .row .nav {
+  margin-top: 148px;
+  margin-left: 3px;
+}
+footer .container .row .nav a {
+  font-size: 14px;
+  font-family: 'Fira Sans', sans-serif;
+  color: #ababab;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1.714;
+  padding: 5px 17.5px;
+  letter-spacing: 0.6px;
+}
+footer .container .row .nav a.sub {
+  border: 1px solid #ffffff;
+  padding: 10px 20px;
+  margin-left: 150px;
+  letter-spacing: 2px;
+  line-height: 1.714;
+}
+footer .container .row .nav .fa-envelope {
+  margin: 1px;
+}
+footer .container .contact {
+  margin-top: 70px;
+  padding-bottom: 77px;
+}
+footer .container .contact .address {
+  margin-top: 43px;
+  position: relative;
+}
+footer .container .contact .address p {
+  font-size: 14px;
+  font-family: 'Fira Sans', sans-serif;
+  color: #696969;
+  line-height: 2;
+  letter-spacing: 0px;
+}
+footer .container .contact .social {
+  margin-left: 593px;
+  margin-top: 48px;
+}
+footer .container .contact .social a {
+  padding: 15px;
+  border: 1px #ffffff solid;
+  border-radius: 100%;
+  word-wrap: 1px;
+  background-color: #333333;
+  color: #ffffff;
+  margin-left: 5px;
+  text-align: center;
+}
+footer .container .contact .social a i {
+  width: 16px;
+  height: 16px;
+  background-color: #333333;
+}
+@media all and (max-width: 1200px) {
+  footer .container {
+    padding: 15px;
+  }
+  footer .container .row img {
+    margin: auto;
+  }
+  footer .container .row .nav {
+    margin: auto;
+    margin-bottom: 0;
+  }
+  footer .container .row .nav a.sub {
+    margin: 0;
+  }
+  footer .container .contact .address {
+    width: 70%;
+    margin: auto;
+  }
+  footer .container .contact .social {
+    width: 30%;
+    margin: auto;
+  }
+}
+@media all and (max-width: 1024px) {
+  footer .container {
+    padding: 15px;
+  }
+  footer .container .row img {
+    height: auto;
+    width: 15%;
+  }
+  footer .container .row .nav {
+    margin: auto;
+    margin-bottom: 0;
+  }
+  footer .container .row .nav a {
+    font-size: 9px;
+  }
+  footer .container .row .nav a.sub {
+    margin: 0;
+  }
+  footer .container .contact .address p {
+    font-size: 12px;
+  }
+  footer .container .contact .social {
+    width: 30%;
+    margin: auto;
+  }
+  footer .container .contact .social a {
+    padding: 9px;
+  }
+}
+@media all and (max-width: 786px) {
+  footer .container {
+    padding: 15px;
+  }
+  footer .container .row img {
+    height: auto;
+    width: 15%;
+  }
+  footer .container .row .nav {
+    margin: auto;
+    margin-bottom: 0;
+  }
+  footer .container .row .nav a {
+    padding: 5px 7.5px;
+  }
+  footer .container .row .nav a.sub {
+    margin: 0;
+  }
+  footer .container .contact {
+    padding-bottom: 20px;
+  }
+  footer .container .contact .address p {
+    font-size: 12px;
+  }
+  footer .container .contact .social {
+    width: 30%;
+    margin: auto;
+  }
+  footer .container .contact .social a {
+    padding: 4px;
+  }
+  footer .container .contact .social a i {
+    width: 17px;
+    height: 12px;
+    font-size: 13px;
+  }
+}
+@media all and (max-width: 576px) {
+  footer .container {
+    padding: 15px;
+  }
+  footer .container .row img {
+    height: auto;
+    width: 15%;
+  }
+  footer .container .row .nav {
+    position: relative;
+  }
+  footer .container .row .nav a {
+    padding: 5px 4.5px;
+  }
+  footer .container .row .nav a.sub {
+    position: absolute;
+    top: 29px;
+    right: 0;
+    padding: 5px;
+  }
+  footer .container .contact {
+    padding-bottom: 20px;
+  }
+  footer .container .contact .address p {
+    font-size: 12px;
+  }
+  footer .container .contact .social {
+    width: 37%;
+    margin: auto;
+  }
+  footer .container .contact .social a {
+    padding: 1px;
+  }
+  footer .container .contact .social a i {
+    width: 17px;
+    height: 12px;
+    font-size: 13px;
+  }
+}

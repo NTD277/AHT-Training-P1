@@ -5,31 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+
     <link href="assets/fonts/fontawesome-free-5.15.2-web/css/all.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=Fira+Sans:wght@200;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet/less" href="assets/scss/style.less" type="text/css">
+    <title>Desktop Page</title>
+    <script src="assets/js/jquery-3.6.0.js"></script>
+    <script src="assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="assets/js/less.js" type="text/javascript"></script>
+    <script src="assets/js/style.js" type="text/javascript"></script>
+
 </head>
 
 <body>
-    <header>
+    <!-- header -->
+    <header class="header">
         <div class="container">
             <div class="row">
                 <div class="logo">
                     <img src="assets/images/Logo.png" alt="Logo">
                 </div>
                 <div class="cart">
-                    <i class="fas fa-shopping-cart"></i>
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
                     <div class="number-cart">
                         <p class="number-cart">2</p>
                     </div>
+                    <a href="#" class="slider">
+                        <i class="fas fa-bars"></i>
+                    </a>
                 </div>
-                <div class="slider">
-                    <!-- <i class="fas fa-sliders-h"></i> -->
-                    <i class="fas fa-grip-lines"></i>
-                </div>
+
             </div>
             <div class="row">
                 <div class="advertise">
@@ -39,14 +50,487 @@
                     <button type="button" class="advertise-discover" href="#">discover now</button>
                 </div>
                 <div class="social">
-                    <a href="#">facebook</a>
-                    <a href="#">twitter</a>
-                    <a href="#">instagram</a>
-                    <a href="#">youtube</a>
+                    <ul>
+                        <li>
+                            <a class="facebook" href="#">facebook
+                                <div class="social-hover">
+
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="twitter" href="#">twitter
+                                <div class="social-hover">
+
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="instagram" href="#">instagram
+                                <div class="social-hover">
+
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="youtube" href="#">youtube
+                                <div class="social-hover">
+
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- </div> -->
+    </header>
+    <!-- intro -->
+    <section class="intro">
+        <div class="container">
+            <div class="row service">
+                <div class="item item-0">
+
+                </div>
+                <div class="item item-1">
+                    <div class="item item-01">
+                        <p class="item-1">free shipping</p>
+                        <p class="item-1">All order over $300</p>
+                    </div>
+                </div>
+                <div class="item item-2">
+                    <div class="item item-02">
+                        <p class="item-2">support customer</p>
+                        <p class="item-2 back-up">Support 24/7</p>
+                    </div>
+                </div>
+                <div class="item item-3">
+                    <div class="item item-03">
+                        <p class="item-3">secure payments</p>
+                        <p class="item-3">Support 24/7</p>
+                    </div>
+                </div>
+                <div class="item item-0">
+
+                </div>
+            </div>
+            <div class="row introduce">
+                <!-- <div class="introduce"> -->
+                <p>It started with a simple idea: Create quality, well-designed products that I wanted myself.</p>
+                <!-- </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- new product -->
+    <section class="new_product">
+        <div class="container">
+            <div class="row new_product">
+                <div class="new_product new_product-1">
+                    <a href="#">
+                        <img src="assets/images/images/new_product-01.jpg" alt="new product 1">
+                        <div class="information">
+                            <p class="new_product_name-1">Gold leaf ring</p>
+                            <p class="new_product_price-1">$179.00</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="new_product2 new_product-2">
+                    <img src="assets/images/images/new_product-02.jpg" alt="new product 2">
+                    <div class="information">
+                        <p>sale up to</p>
+                        <p class="percent_sale" ">70%</p>
+                        <p>Select gold clearance</p>
+                        <div class="_flex ">
+                            <a href="# ">shop now</a>
+                        </div>
+                        <div class="diagonal ">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="new_product new_product-3 ">
+                    <a href="# ">
+                        <img src="assets/images/images/new_product-03.jpg " alt="new product 3 ">
+                        <div class="information ">
+                            <p class="new_collection ">new collection</p>
+                            <p class="new_product_name-3 ">leaf ring</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="new_product new_product-4 ">
+                    <a href="# ">
+                        <img src="assets/images/images/new_product-04.jpg " alt="new product 4 ">
+                    </a>
+                </div>
+                <div class="new_product new_product-5 ">
+                    <a href="# ">
+                        <img src="assets/images/images/new_product-05.jpg " alt="new product 5 ">
+                        <div class="information ">
+                            <p class="new_product_name-5 ">rose gold necklaces</p>
+                            <p class="new_product_price-5 ">$179.00</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="new_product2 new_product-6 ">
+                    <a href="# ">
+                        <img src="assets/images/images/new_product-06.jpg " alt="new product 6 ">
+                        <div class="information ">
+                            <p class="new_product_name-6 ">princess ring <br> rose gold</p>
+                            <p class="note ">Rose gold plated over brass <br>* One size</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
-    </header>
+    </section>
+    <!-- featured items -->
+    <section class="featured_items ">
+        <div class="container ">
+            <div class="row1 featured_lable ">
+                <p>Featured items</p>
+                <a href="# ">view more <i class="fas fa-play-circle "></i></a>
+            </div>
+            <div class="row featured_items ">
+                <div class="items items-1 ">
+                    <div class="_flex ">
+                        <div class="owl-carousel owl-theme ">
+                            <img src="assets/images/images/featured_item-01.jpg " alt="Featured_items-01 ">
+                            <img src="assets/images/images/featured_item-01.jpg " alt="Featured_items-01 ">
+                            <img src="assets/images/images/featured_item-01.jpg " alt="Featured_items-01 ">
+                        </div>
+                        <div class="information-featured ">
+                            <div class="_flex ">
+                                <div class="add_to_cart _flex ">
+                                    <a href="# ">add to cart</a>
+                                </div>
+                                <div class="like _flex ">
+                                    <a href="# "><i class="far fa-heart "></i></a>
+                                </div>
+                                <div class="compare _flex ">
+                                    <a href="# "><i class="fas fa-chart-bar "></i></a>
+                                </div>
+                                <div class="search _flex ">
+                                    <a href="# "><i class="fas fa-search "></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="name_price_items ">
+                            <p>Kubusbowl Small</p>
+                            <p class="price_items ">$19.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="items items-2 ">
+                    <div class="_flex ">
+                        <div class="owl-carousel owl-theme ">
+                            <img src="assets/images/images/featured_item-02.jpg " alt="Featured_items-02 ">
+                            <img src="assets/images/images/featured_item-02.jpg " alt="Featured_items-02 ">
+                            <img src="assets/images/images/featured_item-02.jpg " alt="Featured_items-02 ">
+                        </div>
+                        <div class="information-featured ">
+                            <div class="_flex ">
+                                <div class="add_to_cart _flex ">
+                                    <a href="# ">add to cart</a>
+                                </div>
+                                <div class="like _flex ">
+                                    <a href="# "><i class="far fa-heart "></i></a>
+                                </div>
+                                <div class="compare _flex ">
+                                    <a href="# "><i class="fas fa-chart-bar "></i></a>
+                                </div>
+                                <div class="search _flex ">
+                                    <a href="# "><i class="fas fa-search "></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="name_price_items ">
+                            <p>Divine Footstool</p>
+                            <p class="price_items ">$179.00</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="items items-3 ">
+                    <div class="_flex ">
+                        <div class="owl-carousel owl-theme ">
+                            <img src="assets/images/images/featured_item-03.jpg " alt="Featured_items-03 ">
+                            <img src="assets/images/images/featured_item-03.jpg " alt="Featured_items-03 ">
+                            <img src="assets/images/images/featured_item-03.jpg " alt="Featured_items-03 ">
+                        </div>
+                        <div class="information-featured ">
+                            <div class="_flex ">
+                                <div class="add_to_cart _flex ">
+                                    <a href="# ">add to cart</a>
+                                </div>
+                                <div class="like _flex ">
+                                    <a href="# "><i class="far fa-heart "></i></a>
+                                </div>
+                                <div class="compare _flex ">
+                                    <a href="# "><i class="fas fa-chart-bar "></i></a>
+                                </div>
+                                <div class="search _flex ">
+                                    <a href="# "><i class="fas fa-search "></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="name_price_items ">
+                            <p>Cache Pendant Lamp</p>
+                            <p class="price_items ">$179.00</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="items items-4 ">
+                    <div class="_flex ">
+                        <div class="owl-carousel owl-theme ">
+                            <img src="assets/images/images/featured_item-04.jpg " alt="Featured_items-04 ">
+                            <img src="assets/images/images/featured_item-04.jpg " alt="Featured_items-04 ">
+                            <img src="assets/images/images/featured_item-04.jpg " alt="Featured_items-04 ">
+                        </div>
+                        <div class="information-featured ">
+                            <div class="_flex ">
+                                <div class="add_to_cart _flex ">
+                                    <a href="# ">add to cart</a>
+                                </div>
+                                <div class="like _flex ">
+                                    <a href="# "><i class="far fa-heart "></i></a>
+                                </div>
+                                <div class="compare _flex ">
+                                    <a href="# "><i class="fas fa-chart-bar "></i></a>
+                                </div>
+                                <div class="search _flex ">
+                                    <a href="# "><i class="fas fa-search "></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="name_price_items ">
+                            <p>RIO Chair</p>
+                            <p class="price_items ">$179.00</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="items items-5 ">
+                    <div class="_flex ">
+                        <div class="owl-carousel owl-theme ">
+                            <img src="assets/images/images/featured_item-05.jpg " alt="Featured_items-05 ">
+                            <img src="assets/images/images/featured_item-05.jpg " alt="Featured_items-05 ">
+                            <img src="assets/images/images/featured_item-05.jpg " alt="Featured_items-05 ">
+                        </div>
+                        <div class="information-featured ">
+                            <div class="_flex ">
+                                <div class="add_to_cart _flex ">
+                                    <a href="# ">add to cart</a>
+                                </div>
+                                <div class="like _flex ">
+                                    <a href="# "><i class="far fa-heart "></i></a>
+                                </div>
+                                <div class="compare _flex ">
+                                    <a href="# "><i class="fas fa-chart-bar "></i></a>
+                                </div>
+                                <div class="search _flex ">
+                                    <a href="# "><i class="fas fa-search "></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="name_price_items ">
+                            <p>Cache Pendant Lamp</p>
+                            <p class="price_items ">$179.00</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="items items-6 ">
+                    <div class="_flex ">
+                        <div class="owl-carousel owl-theme ">
+                            <img src="assets/images/images/featured_item-06.jpg " alt="Featured_items-06 ">
+                            <img src="assets/images/images/featured_item-06.jpg " alt="Featured_items-06 ">
+                            <img src="assets/images/images/featured_item-06.jpg " alt="Featured_items-06 ">
+                        </div>
+                        <div class="information-featured ">
+                            <div class="_flex ">
+                                <div class="add_to_cart _flex ">
+                                    <a href="# ">add to cart</a>
+                                </div>
+                                <div class="like _flex ">
+                                    <a href="# "><i class="far fa-heart "></i></a>
+                                </div>
+                                <div class="compare _flex ">
+                                    <a href="# "><i class="fas fa-chart-bar "></i></a>
+                                </div>
+                                <div class="search _flex ">
+                                    <a href="# "><i class="fas fa-search "></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="name_price_items ">
+                            <p>Prismatic table</p>
+                            <p class="price_items ">$69.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="items items-7 ">
+                    <div class="_flex ">
+                        <div class="owl-carousel owl-theme ">
+                            <img src="assets/images/images/featured_item-07.jpg " alt="Featured_items-07 ">
+                            <img src="assets/images/images/featured_item-07.jpg " alt="Featured_items-07 ">
+                            <img src="assets/images/images/featured_item-07.jpg " alt="Featured_items-07 ">
+                        </div>
+                        <div class="information-featured ">
+                            <div class="_flex ">
+                                <div class="add_to_cart _flex ">
+                                    <a href="# ">add to cart</a>
+                                </div>
+                                <div class="like _flex ">
+                                    <a href="# "><i class="far fa-heart "></i></a>
+                                </div>
+                                <div class="compare _flex ">
+                                    <a href="# "><i class="fas fa-chart-bar "></i></a>
+                                </div>
+                                <div class="search _flex ">
+                                    <a href="# "><i class="fas fa-search "></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="name_price_items ">
+                            <p>CobraT hermo Cup</p>
+                            <p class="price_items ">$179.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="items items-8 ">
+                    <div class="_flex ">
+                        <div class="owl-carousel owl-theme ">
+                            <img src="assets/images/images/featured_item-08.jpg " alt="Featured_items-08 ">
+                            <img src="assets/images/images/featured_item-08.jpg " alt="Featured_items-08 ">
+                            <img src="assets/images/images/featured_item-08.jpg " alt="Featured_items-08 ">
+                        </div>
+                        <div class="information-featured ">
+                            <div class="_flex ">
+                                <div class="add_to_cart _flex ">
+                                    <a href="# ">add to cart</a>
+                                </div>
+                                <div class="like _flex ">
+                                    <a href="# "><i class="far fa-heart "></i></a>
+                                </div>
+                                <div class="compare _flex ">
+                                    <a href="# "><i class="fas fa-chart-bar "></i></a>
+                                </div>
+                                <div class="search _flex ">
+                                    <a href="# "><i class="fas fa-search "></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="name_price_items ">
+                            <p>Montana Collection</p>
+                            <p class="price_items ">$179.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog -->
+    <section class="blog_update ">
+        <div class="container ">
+            <div class="row category ">
+                <p>Blog update</p>
+            </div>
+            <div class="row ">
+                <div class="blog_update blog_update-01 ">
+                    <img src="assets/images//images/blog_update-01.jpg " alt="Blog_update-01 ">
+                    <div class="detail_blog_update ">
+                        <p class="date_of_blog ">July 14th, 2016</p>
+                        <a class="name_of_blog " href="# ">8 Things I've Learned from <br>8 Years of Bonfire</a>
+                        <hr>
+                        <i class="fas fa-eye "></i>
+                        <span>941 Views</span>
+                        <i class="fas fa-share-alt-square "></i>
+                        <span>27 Likes</span>
+                    </div>
+                </div>
+                <div class="blog_update blog_update-02 ">
+                    <img src="assets/images//images/blog_update-02.jpg " alt="Blog_update-02 ">
+                    <div class="detail_blog_update ">
+                        <p class="date_of_blog ">July 14th, 2016</p>
+                        <a class="name_of_blog " href="# ">How I Stay Inspired and <br>Come Up with New Ideas</a>
+                        <hr>
+                        <i class="fas fa-eye "></i>
+                        <span>941 Views</span>
+                        <i class="fas fa-share-alt-square "></i>
+                        <span>27 Likes</span>
+                    </div>
+                </div>
+                <div class="blog_update blog_update-03 ">
+                    <img src="assets/images//images/blog_update-03.jpg " alt="Blog_update-03 ">
+                    <div class="detail_blog_update ">
+                        <p class="date_of_blog ">July 14th, 2016</p>
+                        <a class="name_of_blog " href="# ">Wait, there's a human on <br>the other end?</a>
+                        <hr>
+                        <i class="fas fa-eye "></i>
+                        <span>941 Views</span>
+                        <i class="fas fa-share-alt-square "></i>
+                        <span>27 Likes</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row blog ">
+                <div class="all_blog ">
+                    <a href="# ">Go to blog</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- brand -->
+    <section class="brand ">
+        <div class="container ">
+            <div class="row brand ">
+                <img class="rolex " src="assets/images/Logo_ROLEX.png " alt="ROLEX ">
+                <img class="elle " src="assets/images/Logo_ELLE.png " alt="ELLE ">
+                <img class="logo-03 " src="assets/images/Logo-03.png " alt="03 ">
+                <img class="jubilee " src="assets/images/Logo_Jubilee.png " alt="Jubilee ">
+                <img class="triton " src="assets/images/Logo_TRITON.png " alt="TRITON ">
+                <img class="pandora " src="assets/images/Logo_PANDORA.png " alt="PANDORA ">
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="container ">
+            <div class="row ">
+                <img src="assets/images/Logo_footer.png " alt=" ">
+                <div class="nav ">
+                    <a href="# ">Home</a>
+                    <a href="# ">About</a>
+                    <a href="# ">Services</a>
+                    <a href="# ">Portfolio</a>
+                    <a href="# ">Pages</a>
+                    <a href="# ">Contact</a>
+                    <a class="sub " href="# ">Subscribe  <i class="fas fa-envelope "></i></a>
+                </div>
+            </div>
+            <div class="row contact ">
+                <hr>
+                <div class="address ">
+                    <p>14 L.E Gounlburn St, Sydney 2000NSW - (088) 1990 6886</p>
+                    <p>Copyright <i class="far fa-copyright "></i> 2016 Bonfire</p>
+                </div>
+                <div class="social ">
+                    <a href="# "><i class="fab fa-facebook-f "></i></a>
+                    <a href="# "><i class="fab fa-twitter "></i></a>
+                    <a href="# "><i class="fab fa-youtube "></i></a>
+                    <a href="# "><i class="fab fa-skype "></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
 </body>
 
 </html>

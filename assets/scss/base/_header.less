@@ -1,0 +1,449 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    max-width: 1920px;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: #333333;
+}
+.header {
+    width: 100%;
+    // height: 1000px;
+    background-image: url('../images/images/shine_time.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .container {
+        width: 100%;
+        z-index: 1;
+        position: relative;
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            .logo {
+                width: 75%;
+                img {
+                    margin: 25px 0 0 97px;
+                }
+            }
+            .cart {
+                width: 25%;
+                display: flex;
+                flex-wrap: wrap;
+                a{
+                    margin-top: 41px;
+                    margin-left: 276px;
+                    font-size: 24px;
+                    .fa-shopping-cart {
+                        color: white;
+                    }
+                }
+                
+                div.number-cart {
+                    width: 19px;
+                    height: 19px;
+                    background-color: white;
+                    border-radius: 100%;
+                    display: flex;
+                    margin-top: 36px;
+                    margin-left: -10px;
+                    .number-cart {
+                        margin: auto;
+                    }
+                }
+                .slider {
+                    margin-top: 44px;
+                    font-size: 21px;
+                    margin-left: 38px;
+                    color: #ffffff;
+                    i {}
+                }
+                
+            }
+            
+        }
+        .row:nth-child(2){
+            display: flex;
+            flex-wrap: wrap;
+            .advertise{
+                width: 75%;
+                
+                p:first-of-type{
+                    padding-top: 251px;
+                    padding-left: 377px;
+                    font-family: 'Fira Sans', sans-serif;
+                    font-size: 24.339px;
+                    text-transform: capitalize;
+                    letter-spacing: 12.35px;
+                    color: #696969;
+                }
+                p:nth-child(2){
+                    padding-left: 377px;
+                    font-family: 'Cormorant Garamond', serif;
+                    font-size: 100px;
+                    font-style: italic;
+                    color: #333333;
+                    margin-top: 19px;
+                    margin-left: -2px;
+                    text-transform: uppercase;
+                    letter-spacing: 30px;
+                    line-height: 1.3;
+                    vertical-align: 100px;
+                }
+                p:nth-child(3){
+                    padding-left: 377px;
+                    font-family: 'Cormorant Garamond', serif;
+                    font-size: 100px;
+                    font-style: italic;
+                    color: #333333;
+                    text-transform: uppercase;
+                    letter-spacing: 30px;
+                    margin-top: -25px;
+                }
+                .advertise-discover {
+                    font-size: 16px;
+                    font-family: 'Fira Sans', sans-serif;
+                    font-weight: bold;
+                    height: 48px;
+                    width: 199px;
+                    background-color: #333333;
+                    color: white;
+                    text-transform: uppercase;
+                    margin-top: 45px;
+                    margin-left: 374px;
+                    margin-bottom: 291px;
+                    cursor: pointer;
+                    letter-spacing: 2.5px;
+                }
+            }
+            .social{
+                width: 25%;
+                ul{
+                    margin-top: 337px;
+                    li{
+                        list-style: none;
+                        a{
+                            font-size: 24px;
+                            font-family: 'Cormorant Garamond', serif;
+                            color: white;
+                            text-transform: capitalize;
+                            text-align: right;
+                            text-decoration: none;
+                            letter-spacing: 2.1px;
+                            margin-bottom: 11px;
+                            display: flex;
+                            
+                            .social-hover{
+                                height: 17px;
+                                width: 100%;
+                                margin-left: 20px;
+                                border-bottom: 1px solid #333333;
+                                display: none;
+                            }
+                        }
+                        a.facebook{
+                            margin-left: 273px;
+                        }
+                        a.twitter{
+                            margin-left: 294px;
+                        }
+                        a.instagram{
+                            margin-left: 266px;
+                        }
+                        a.youtube{
+                            margin-left: 287px;
+                        }
+                        
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 1919px){
+    .header{
+        .container{
+            .row{
+                .logo{
+                    width: 85%;
+                }
+                .cart{
+                    width:15%;
+                    a{
+                        margin-left: 0px;
+                        font-size: 20px;
+                    }
+                    .slider{
+                        margin-top: 44px;
+                        font-size: 19px;
+                    }
+                }
+            }
+            .row:nth-child(2){
+                .advertise{
+                    width: 50%;
+                    p:first-of-type{
+                        padding-top: 90px;
+                        padding-left: 70px;
+                        font-size: 16px;
+                    }
+                    p:nth-child(2){
+                        padding-left: 70px;
+                        font-size: 50px;
+                        letter-spacing: 18px;
+                        line-height: 1.5;
+                    }
+                    p:nth-child(3){
+                        padding-left: 70px;
+                        font-size: 50px;
+                        letter-spacing: 18px;
+                        line-height: 1.5;
+                    }
+                    .advertise-discover{
+                        margin-left: 70px;
+                        margin-top: 40px;
+                        height: 45px;
+                        width: 182px;
+                        font-size: 14px;
+                    }
+                }
+                .social{
+                    width: 50%;
+                    ul{
+                        margin-top: 200px;
+                        margin-right: 40px;
+                        li{
+                            a{
+                                font-size: 20px;
+                                display: block;
+                                .social-hover{
+                                    width: 0;
+                                    margin: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media all and (max-width: 1024px){
+    .header{
+        .container{
+            .row{
+                .logo{
+                    width: 85%;
+                    img{
+                        margin: 0 0 0 40px;
+                    }
+                }
+                .cart{
+                    width:15%;
+                    a{
+                        font-size: 14px;
+                        margin-top: 16px;
+                    }
+                    div.number-cart{
+                        width: 14px;
+                        height: 14px;
+                        margin-top: 9px;
+                        margin-left: -8px;
+                        p{
+                            font-size: 10px;
+                        }
+                    }
+                    .slider{
+                        margin-top: 13px;
+                        font-size: 18px;
+                    }
+                }
+            }
+            .row:nth-child(2){
+                .advertise{
+                    width: 70%;
+                    p:first-of-type{
+                        padding-top: 110px;
+                        padding-left: 40px;
+                        font-size: 14px;
+                        letter-spacing: 8px;
+                    }
+                    p:nth-child(2){
+                        padding-left: 40px;
+                        font-size: 35px;
+                        letter-spacing: 16px;
+                        line-height: 1;
+                    }
+                    p:nth-child(3){
+                        margin-top: 1px;
+                        padding-left: 40px;
+                        font-size: 35px;
+                        letter-spacing: 17px;
+                        line-height: 1;
+                    }
+                    .advertise-discover{
+                        margin-left: 40px;
+                        margin-top: 35px;
+                        height: 40px;
+                        width: 150px;
+                        font-size: 12px;
+                        margin-bottom: 98px;
+                    }
+                }
+                .social{
+                    width: 30%;
+                    ul{
+                        margin-top: 156px;
+                        margin-right: 27px;
+                        li{
+                            a{
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media all and (max-width: 768px){
+    .header{
+        .container{
+            .row{
+                .logo{
+                    width: 80%;
+                    img{
+                        height: 50%;
+                        margin: 10px 0 0 40px
+                    }
+                }
+                .cart{
+                    width:20%;
+                    a{
+                        margin-left: 0px;
+                        margin-top: 13px;
+                        font-size: 14px;
+                    }
+                    div.number-cart{
+                        width: 15px;
+                        height: 15px;
+                        margin-top: 5px;
+                        margin-left: -7px;
+                        .number-cart{
+                            font-size: 10px;
+                        }
+                    }
+                    .slider{
+                        margin-top: 15px;
+                        font-size: 13px;
+                    }
+                }
+            }
+            .row:nth-child(2){
+                .advertise{
+                    width: 80%;
+                    p:first-of-type{
+                        padding-top: 55px;
+                        padding-left: 40px;
+                        font-size: 14px;
+                        letter-spacing: 8px;
+                    }
+                    p:nth-child(2){
+                        padding-left: 40px;
+                        font-size: 30px;
+                        letter-spacing: 10px;
+                    }
+                    p:nth-child(3){
+                        padding-left: 40px;
+                        font-size: 30px;
+                        letter-spacing: 10px;
+                    
+                    }
+                    .advertise-discover{
+                        margin-top: 10px;
+                        font-size: 9px;
+                        height: 31px;
+                        width: 126px;
+                    }
+                }
+                .social{
+                    width: 20%;
+                    ul{
+                        margin-top: 50px;
+                        margin-right: 25px;
+                        li{
+                            a{
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 576px){
+    .header{
+        .container{
+            .row{
+                .logo{
+                    width: 80%;
+                    img{
+                        height: 50%;
+                        margin: 10px 0 0 20px
+                    }
+                }
+                .cart{
+                    width:20%;
+                    a{
+                    }
+                    .slider{
+                    }
+                }
+            }
+            .row:nth-child(2){
+                .advertise{
+                    width: 60%;
+                    p:first-of-type{
+                        padding-top: 0px;
+                        padding-left: 20px;
+                        font-size: 12px;
+                        letter-spacing: 4px;
+                    }
+                    p:nth-child(2){
+                        padding-left: 20px;
+                        font-size: 25px;
+                        letter-spacing: 6px;
+                    }
+                    p:nth-child(3){
+                        padding-left: 20px;
+                        font-size: 25px;
+                        letter-spacing: 6px;
+                    
+                    }
+                    .advertise-discover{
+                        margin-left: 20px;
+                    }
+                }
+                .social{
+                    width: 40%;
+                    ul{
+                        margin-top: 30px;
+                        margin-right: 20px;
+                        li{
+                            a{
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

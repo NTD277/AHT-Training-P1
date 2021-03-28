@@ -1,0 +1,350 @@
+section.blog_update{
+    background-color: #faf9f9;
+    .container{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 110px 15px 0 15px;
+        box-sizing: border-box;
+        position: relative;
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -15px;
+            .blog_update{
+                width: 33.3333%;
+                padding: 0 15px;
+                box-sizing: border-box;
+                .detail_blog_update{
+                    background-color: white;
+                    padding: 0 33px 15px 33px;
+                    box-sizing: border-box;
+                    .date_of_blog{
+                        font-size: 14px;
+                        font-family: 'Fira Sans', sans-serif;
+                        text-transform: uppercase;
+                        color: #cccccc;
+                        padding: 23px 0;
+                        letter-spacing: 1.5px;
+                    }
+                    .name_of_blog {
+                        font-size: 24px;
+                        font-family: 'Cormorant Garamond', serif;
+                        font-weight: bold;
+                        color: #333333;
+                        line-height: 1.333;
+                        letter-spacing: 1.2px;
+                        margin-top: 25px;
+                        text-decoration: none;
+                    }
+                    hr {
+                        height: 1px;
+                        background-color: #eeeeee;
+                        margin-top: 51px;
+                        margin-bottom: 12px;
+                    }
+                    .fa-eye {
+                        color: #92c5d9;
+                        font-size: 10px;
+                    }
+                    .fa-share-alt-square {
+                        background-color: #92c5d9;
+                        color: white;
+                    }
+                    span {
+                        font-size: 14px;
+                        font-family: 'Fira Sans', sans-serif;
+                        line-height: 2.286;
+                        margin-right: 19px;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+        .category{
+            position: absolute;
+            width: 100%;
+            top: -42px;
+            p{
+                font-size: 56px;
+                font-family: 'Cormorant Garamond', serif;
+                margin: auto;
+                margin-bottom: 82px;
+                letter-spacing: 0.3px;
+            }
+        }
+        .blog{
+            height: 184px;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -15px;
+            padding-bottom: 5px;
+            .all_blog {
+                margin-top: 66px;
+                margin-left: 547px;
+                a {
+                    font-size: 24px;
+                    font-family: 'Cormorant Garamond', serif;
+                    text-decoration: none;
+                    line-height: 1.167;
+                    box-shadow: 1px 3px 23px 15px rgba(227,227,227,0.5);
+                    // box-shadow: 0px 0px 50px 11px rgba();
+                }
+            }
+        }
+    }
+}
+section.brand {
+    .container{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        // padding: 0 15px;
+        // padding-top: 53px;
+        box-sizing: border-box;
+        .row{
+            display: flex;
+            // margin: 0 -40px;
+        }
+        .brand{
+            padding-bottom: 60px;
+            img{
+                // width: 100%;
+                width: auto;
+                height: 100%;
+            }
+            .rolex{
+                margin-top: 73px;
+                 margin-left: 38px;
+            }
+            .elle{
+                margin-top: 84px;
+                 margin-left: 79px;
+            }
+            .logo-03{
+                margin-top: 83px;
+                margin-left: 77px;
+            }
+            .jubilee{
+                margin-top: 67px;
+                margin-left: 82px;
+            }
+            .triton{
+                margin-top: 70px;
+                margin-left: 86px;
+            }
+            .pandora{
+                margin-top: 95px;
+                margin-left: 62px;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 1919px){
+    section.blog_update{
+        .container{
+            .row{
+                .blog_update{
+                    width: 30%;
+                    margin: auto;
+                    margin-top: 0;
+                    img{
+                        width: 100%;
+                    }
+                    .detail_blog_update{
+                        margin-top: -3px;
+                        a{
+                            br{
+                                display: none;
+                            }
+                        }
+                        .date_of_blog{
+                        }
+                        .name_of_blog {
+                        }
+                        hr {
+                        }
+                        .fa-eye {
+                        }
+                        .fa-share-alt-square {
+                        }
+                        span {
+                        }
+                    }
+                }
+            }
+            .category{
+                p{
+                    font-size: 50px;
+                }
+            }
+            .blog{
+                .all_blog {
+                    margin: auto;
+                    a {
+                    }
+                }
+            }
+        }
+    }
+    section.brand {
+        .container{
+            width: 100%;
+            margin: auto;
+            box-sizing: border-box;
+            .row{
+                padding: 30px 0;
+            }
+            .brand{
+                img{
+                    width: auto;
+                    height: 100%;
+                }
+                .rolex{
+                    margin: auto;
+                }
+                .elle{
+                    margin: auto;
+                }
+                .logo-03{
+                    margin: auto;
+                }
+                .jubilee{
+                    margin: auto;
+                }
+                .triton{
+                    margin: auto;
+                }
+                .pandora{
+                    margin: auto;
+                }
+            }
+        }
+    }
+}
+@media all and (max-width: 1200px){}
+@media all and (max-width: 1024px){
+    section.brand {
+        .container{
+            .row{
+            }
+            .brand{
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0;
+                img{
+                    
+                }
+                .rolex{
+                    margin: 25px;
+                }
+                .elle{
+                    margin: 25px;
+                }
+                .logo-03{
+                    margin: 25px;
+                }
+                .jubilee{
+                    margin: 25px;
+                }
+                .triton{
+                    margin: 25px;
+                }
+                .pandora{
+                    margin: 25px;
+                }
+            }
+        }
+    }
+}
+@media all and (max-width: 786px){
+    section.blog_update{
+        .container{
+            .row{
+                .blog_update{
+                    width: 50%;
+                    margin: auto;
+                    margin-top: 25px;
+                    img{
+                    }
+                    .detail_blog_update{
+                        a{
+                            br{
+                            }
+                        }
+                        .date_of_blog{
+                        }
+                        .name_of_blog {
+                        }
+                        hr {
+                        }
+                        .fa-eye {
+                        }
+                        .fa-share-alt-square {
+                        }
+                        span {
+                        }
+                    }
+                }
+            }
+            .category{
+                p{
+                    font-size: 50px;
+                }
+            }
+            .blog{
+                .all_blog {
+                    margin: auto;
+                    a {
+                    }
+                }
+            }
+        }
+    }
+}
+@media all and (max-width: 576px){
+    section.blog_update{
+        .container{
+            .row{
+                .blog_update{
+                    width: 90%;
+                    margin: auto;
+                    margin-top: 25px;
+                    img{
+                    }
+                    .detail_blog_update{
+                        a{
+                            br{
+                            }
+                        }
+                        .date_of_blog{
+                        }
+                        .name_of_blog {
+                        }
+                        hr {
+                        }
+                        .fa-eye {
+                        }
+                        .fa-share-alt-square {
+                        }
+                        span {
+                        }
+                    }
+                }
+            }
+            .category{
+                p{
+                    font-size: 50px;
+                }
+            }
+            .blog{
+                .all_blog {
+                    margin: auto;
+                    a {
+                    }
+                }
+            }
+        }
+    }
+}

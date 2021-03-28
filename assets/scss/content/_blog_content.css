@@ -1,0 +1,238 @@
+section.blog_update {
+  background-color: #faf9f9;
+}
+section.blog_update .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 110px 15px 0 15px;
+  box-sizing: border-box;
+  position: relative;
+}
+section.blog_update .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+section.blog_update .container .row .blog_update {
+  width: 33.3333%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+section.blog_update .container .row .blog_update .detail_blog_update {
+  background-color: white;
+  padding: 0 33px 15px 33px;
+  box-sizing: border-box;
+}
+section.blog_update .container .row .blog_update .detail_blog_update .date_of_blog {
+  font-size: 14px;
+  font-family: 'Fira Sans', sans-serif;
+  text-transform: uppercase;
+  color: #cccccc;
+  padding: 23px 0;
+  letter-spacing: 1.5px;
+}
+section.blog_update .container .row .blog_update .detail_blog_update .name_of_blog {
+  font-size: 24px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  color: #333333;
+  line-height: 1.333;
+  letter-spacing: 1.2px;
+  margin-top: 25px;
+  text-decoration: none;
+}
+section.blog_update .container .row .blog_update .detail_blog_update hr {
+  height: 1px;
+  background-color: #eeeeee;
+  margin-top: 51px;
+  margin-bottom: 12px;
+}
+section.blog_update .container .row .blog_update .detail_blog_update .fa-eye {
+  color: #92c5d9;
+  font-size: 10px;
+}
+section.blog_update .container .row .blog_update .detail_blog_update .fa-share-alt-square {
+  background-color: #92c5d9;
+  color: white;
+}
+section.blog_update .container .row .blog_update .detail_blog_update span {
+  font-size: 14px;
+  font-family: 'Fira Sans', sans-serif;
+  line-height: 2.286;
+  margin-right: 19px;
+  margin-left: 10px;
+}
+section.blog_update .container .category {
+  position: absolute;
+  width: 100%;
+  top: -42px;
+}
+section.blog_update .container .category p {
+  font-size: 56px;
+  font-family: 'Cormorant Garamond', serif;
+  margin: auto;
+  margin-bottom: 82px;
+  letter-spacing: 0.3px;
+}
+section.blog_update .container .blog {
+  height: 184px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  padding-bottom: 5px;
+}
+section.blog_update .container .blog .all_blog {
+  margin-top: 66px;
+  margin-left: 547px;
+}
+section.blog_update .container .blog .all_blog a {
+  font-size: 24px;
+  font-family: 'Cormorant Garamond', serif;
+  text-decoration: none;
+  line-height: 1.167;
+  box-shadow: 1px 3px 23px 15px rgba(227, 227, 227, 0.5);
+}
+section.brand .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  box-sizing: border-box;
+}
+section.brand .container .row {
+  display: flex;
+}
+section.brand .container .brand {
+  padding-bottom: 60px;
+}
+section.brand .container .brand img {
+  width: auto;
+  height: 100%;
+}
+section.brand .container .brand .rolex {
+  margin-top: 73px;
+  margin-left: 38px;
+}
+section.brand .container .brand .elle {
+  margin-top: 84px;
+  margin-left: 79px;
+}
+section.brand .container .brand .logo-03 {
+  margin-top: 83px;
+  margin-left: 77px;
+}
+section.brand .container .brand .jubilee {
+  margin-top: 67px;
+  margin-left: 82px;
+}
+section.brand .container .brand .triton {
+  margin-top: 70px;
+  margin-left: 86px;
+}
+section.brand .container .brand .pandora {
+  margin-top: 95px;
+  margin-left: 62px;
+}
+@media all and (max-width: 1919px) {
+  section.blog_update .container .row .blog_update {
+    width: 30%;
+    margin: auto;
+    margin-top: 0;
+  }
+  section.blog_update .container .row .blog_update img {
+    width: 100%;
+  }
+  section.blog_update .container .row .blog_update .detail_blog_update {
+    margin-top: -3px;
+  }
+  section.blog_update .container .row .blog_update .detail_blog_update a br {
+    display: none;
+  }
+  section.blog_update .container .category p {
+    font-size: 50px;
+  }
+  section.blog_update .container .blog .all_blog {
+    margin: auto;
+  }
+  section.brand .container {
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  section.brand .container .row {
+    padding: 30px 0;
+  }
+  section.brand .container .brand img {
+    width: auto;
+    height: 100%;
+  }
+  section.brand .container .brand .rolex {
+    margin: auto;
+  }
+  section.brand .container .brand .elle {
+    margin: auto;
+  }
+  section.brand .container .brand .logo-03 {
+    margin: auto;
+  }
+  section.brand .container .brand .jubilee {
+    margin: auto;
+  }
+  section.brand .container .brand .triton {
+    margin: auto;
+  }
+  section.brand .container .brand .pandora {
+    margin: auto;
+  }
+}
+@media all and (max-width: 1024px) {
+  section.brand .container .brand {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  section.brand .container .brand .rolex {
+    margin: 25px;
+  }
+  section.brand .container .brand .elle {
+    margin: 25px;
+  }
+  section.brand .container .brand .logo-03 {
+    margin: 25px;
+  }
+  section.brand .container .brand .jubilee {
+    margin: 25px;
+  }
+  section.brand .container .brand .triton {
+    margin: 25px;
+  }
+  section.brand .container .brand .pandora {
+    margin: 25px;
+  }
+}
+@media all and (max-width: 786px) {
+  section.blog_update .container .row .blog_update {
+    width: 50%;
+    margin: auto;
+    margin-top: 25px;
+  }
+  section.blog_update .container .category p {
+    font-size: 50px;
+  }
+  section.blog_update .container .blog .all_blog {
+    margin: auto;
+  }
+}
+@media all and (max-width: 576px) {
+  section.blog_update .container .row .blog_update {
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+  }
+  section.blog_update .container .category p {
+    font-size: 50px;
+  }
+  section.blog_update .container .blog .all_blog {
+    margin: auto;
+  }
+}
