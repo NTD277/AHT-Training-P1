@@ -198,7 +198,7 @@ a {
     font-size: 14px;
   }
   .header .container .row:nth-child(2) .social {
-    width: 50%;
+    width: 47%;
   }
   .header .container .row:nth-child(2) .social ul {
     margin-top: 200px;
@@ -279,6 +279,18 @@ a {
   }
   .header .container .row:nth-child(2) .social ul li a {
     font-size: 14px;
+  }
+  .header .container .row:nth-child(2) .social ul li a.facebook {
+    margin-left: 0;
+  }
+  .header .container .row:nth-child(2) .social ul li a.twitter {
+    margin-left: 0;
+  }
+  .header .container .row:nth-child(2) .social ul li a.instagram {
+    margin-left: 0;
+  }
+  .header .container .row:nth-child(2) .social ul li a.youtube {
+    margin-left: 0;
   }
 }
 @media all and (max-width: 768px) {
