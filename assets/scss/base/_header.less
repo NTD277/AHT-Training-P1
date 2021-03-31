@@ -166,21 +166,39 @@ a{
 }
 
 @media all and (max-width: 1919px){
+    .container{
+            padding: 0 100px;
+            box-sizing: border-box;
+    }
     .header{
         .container{
             .row{
                 .logo{
-                    width: 85%;
+                    width: 90%;
+                    img{
+                        margin: 25px 0 0 0;
+                    }
                 }
                 .cart{
-                    width:15%;
+                    width:10%;
                     a{
-                        margin-left: 0px;
                         font-size: 20px;
+                        position: absolute;
+                        right: 180px;
+                    }
+                    .number-cart{
+                        position: absolute;
+                        right: 170px;
+                        p{
+                            position: absolute;
+                            right: 5px;
+                        }
                     }
                     .slider{
                         margin-top: 44px;
                         font-size: 19px;
+                        position: absolute;
+                        right: 100px;
                     }
                 }
             }
@@ -189,23 +207,23 @@ a{
                     width: 50%;
                     p:first-of-type{
                         padding-top: 90px;
-                        padding-left: 70px;
+                        padding-left: 0;
                         font-size: 16px;
                     }
                     p:nth-child(2){
-                        padding-left: 70px;
+                        padding-left: 0;
                         font-size: 50px;
                         letter-spacing: 18px;
                         line-height: 1.5;
                     }
                     p:nth-child(3){
-                        padding-left: 70px;
+                        padding-left: 0;
                         font-size: 50px;
                         letter-spacing: 18px;
                         line-height: 1.5;
                     }
                     .advertise-discover{
-                        margin-left: 70px;
+                        margin-left: 0;
                         margin-top: 40px;
                         height: 45px;
                         width: 182px;
@@ -213,10 +231,10 @@ a{
                     }
                 }
                 .social{
-                    width: 47%;
+                    width: 50%;
                     ul{
                         margin-top: 200px;
-                        margin-right: 40px;
+                        margin-right: 0;
                         li{
                             a{
                                 font-size: 20px;
@@ -234,33 +252,32 @@ a{
     }
 }
 @media all and (max-width: 1024px){
+    .container{
+        padding: 0 50px;
+        box-sizing: border-box;
+    }
     .header{
         .container{
             .row{
                 .logo{
-                    width: 85%;
+                    width:90%;
                     img{
-                        margin: 0 0 0 40px;
+                        margin: 20px 0 0 0;
                     }
                 }
                 .cart{
-                    width:15%;
+                    width:10%;
                     a{
-                        font-size: 14px;
-                        margin-top: 16px;
+                        right: 120px;
                     }
                     div.number-cart{
-                        width: 14px;
-                        height: 14px;
-                        margin-top: 9px;
-                        margin-left: -8px;
+                        right: 113px;
                         p{
-                            font-size: 10px;
+                            
                         }
                     }
                     .slider{
-                        margin-top: 13px;
-                        font-size: 18px;
+                        right: 50px;
                     }
                 }
             }
@@ -269,25 +286,21 @@ a{
                     width: 70%;
                     p:first-of-type{
                         padding-top: 110px;
-                        padding-left: 40px;
                         font-size: 14px;
                         letter-spacing: 8px;
                     }
                     p:nth-child(2){
-                        padding-left: 40px;
                         font-size: 35px;
                         letter-spacing: 16px;
                         line-height: 1;
                     }
                     p:nth-child(3){
                         margin-top: 1px;
-                        padding-left: 40px;
                         font-size: 35px;
                         letter-spacing: 17px;
                         line-height: 1;
                     }
                     .advertise-discover{
-                        margin-left: 40px;
                         margin-top: 35px;
                         height: 40px;
                         width: 150px;
@@ -299,7 +312,6 @@ a{
                     width: 30%;
                     ul{
                         margin-top: 156px;
-                        margin-right: 27px;
                         li{
                             a{
                                 font-size: 14px;
@@ -325,35 +337,38 @@ a{
     }
 }
 @media all and (max-width: 768px){
+    .container{
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
     .header{
         .container{
             .row{
                 .logo{
-                    width: 80%;
+                    width: 90%;
                     img{
                         height: 50%;
-                        margin: 10px 0 0 40px
+                        margin: 10px 0 0 0;
                     }
                 }
                 .cart{
-                    width:20%;
+                    width:10%;
                     a{
-                        margin-left: 0px;
-                        margin-top: 13px;
                         font-size: 14px;
+                        top: -30px;
                     }
                     div.number-cart{
+                        top: -30px;
                         width: 15px;
                         height: 15px;
-                        margin-top: 5px;
-                        margin-left: -7px;
                         .number-cart{
-                            font-size: 10px;
+                            font-size: 11px;
                         }
                     }
                     .slider{
                         margin-top: 15px;
                         font-size: 13px;
+                        top: 0;
                     }
                 }
             }
@@ -362,17 +377,14 @@ a{
                     width: 80%;
                     p:first-of-type{
                         padding-top: 55px;
-                        padding-left: 40px;
                         font-size: 14px;
                         letter-spacing: 8px;
                     }
                     p:nth-child(2){
-                        padding-left: 40px;
                         font-size: 30px;
                         letter-spacing: 10px;
                     }
                     p:nth-child(3){
-                        padding-left: 40px;
                         font-size: 30px;
                         letter-spacing: 10px;
                     
@@ -382,16 +394,16 @@ a{
                         font-size: 9px;
                         height: 31px;
                         width: 126px;
+                        margin-bottom: 58px;
                     }
                 }
                 .social{
                     width: 20%;
                     ul{
                         margin-top: 50px;
-                        margin-right: 25px;
                         li{
                             a{
-                                font-size: 10px;
+                                font-size: 13px;
                             }
                         }
                     }
@@ -409,7 +421,7 @@ a{
                     width: 80%;
                     img{
                         height: 50%;
-                        margin: 10px 0 0 20px
+                        margin: 10px 0 0 0;
                     }
                 }
                 .cart{
@@ -424,31 +436,25 @@ a{
                 .advertise{
                     width: 60%;
                     p:first-of-type{
-                        padding-top: 0px;
-                        padding-left: 20px;
                         font-size: 12px;
                         letter-spacing: 4px;
                     }
                     p:nth-child(2){
-                        padding-left: 20px;
                         font-size: 25px;
                         letter-spacing: 6px;
                     }
                     p:nth-child(3){
-                        padding-left: 20px;
                         font-size: 25px;
                         letter-spacing: 6px;
                     
                     }
                     .advertise-discover{
-                        margin-left: 20px;
                     }
                 }
                 .social{
                     width: 40%;
                     ul{
                         margin-top: 30px;
-                        margin-right: 20px;
                         li{
                             a{
                                 font-size: 10px;

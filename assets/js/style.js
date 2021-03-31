@@ -4,6 +4,14 @@ $(document).ready(function() {
     }, function() {
         $(this).find(".social-hover").css("display", "none")
     });
+
+    $(".blog_update .all_blog a").hover(function() {
+        $(this).css("font-weight", "bold");
+        $(this).css("text-decoration", "underline");
+    }, function() {
+        $(this).css("font-weight", "initial");
+        $(this).css("text-decoration", "none");
+    })
     $(".items").hover(function() {
             $(this).find(".information-featured").css("display", "initial");
             $(this).find(".owl-nav").css("display", "initial");

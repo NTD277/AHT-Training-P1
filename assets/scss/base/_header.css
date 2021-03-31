@@ -156,53 +156,71 @@ a {
   margin-left: 287px;
 }
 @media all and (max-width: 1919px) {
+  .container {
+    padding: 0 100px;
+    box-sizing: border-box;
+  }
   .header .container .row .logo {
-    width: 85%;
+    width: 90%;
+  }
+  .header .container .row .logo img {
+    margin: 25px 0 0 0;
   }
   .header .container .row .cart {
-    width: 15%;
+    width: 10%;
   }
   .header .container .row .cart a {
-    margin-left: 0px;
     font-size: 20px;
+    position: absolute;
+    right: 180px;
+  }
+  .header .container .row .cart .number-cart {
+    position: absolute;
+    right: 170px;
+  }
+  .header .container .row .cart .number-cart p {
+    position: absolute;
+    right: 5px;
   }
   .header .container .row .cart .slider {
     margin-top: 44px;
     font-size: 19px;
+    position: absolute;
+    right: 100px;
   }
   .header .container .row:nth-child(2) .advertise {
     width: 50%;
   }
   .header .container .row:nth-child(2) .advertise p:first-of-type {
     padding-top: 90px;
-    padding-left: 70px;
+    padding-left: 0;
     font-size: 16px;
   }
   .header .container .row:nth-child(2) .advertise p:nth-child(2) {
-    padding-left: 70px;
+    padding-left: 0;
     font-size: 50px;
     letter-spacing: 18px;
     line-height: 1.5;
   }
   .header .container .row:nth-child(2) .advertise p:nth-child(3) {
-    padding-left: 70px;
+    padding-left: 0;
     font-size: 50px;
     letter-spacing: 18px;
     line-height: 1.5;
   }
   .header .container .row:nth-child(2) .advertise .advertise-discover {
-    margin-left: 70px;
+    margin-left: 0;
     margin-top: 40px;
     height: 45px;
     width: 182px;
     font-size: 14px;
   }
   .header .container .row:nth-child(2) .social {
-    width: 47%;
+    width: 50%;
   }
   .header .container .row:nth-child(2) .social ul {
     margin-top: 200px;
-    margin-right: 40px;
+    margin-right: 0;
   }
   .header .container .row:nth-child(2) .social ul li a {
     font-size: 20px;
@@ -214,56 +232,48 @@ a {
   }
 }
 @media all and (max-width: 1024px) {
+  .container {
+    padding: 0 50px;
+    box-sizing: border-box;
+  }
   .header .container .row .logo {
-    width: 85%;
+    width: 90%;
   }
   .header .container .row .logo img {
-    margin: 0 0 0 40px;
+    margin: 20px 0 0 0;
   }
   .header .container .row .cart {
-    width: 15%;
+    width: 10%;
   }
   .header .container .row .cart a {
-    font-size: 14px;
-    margin-top: 16px;
+    right: 120px;
   }
   .header .container .row .cart div.number-cart {
-    width: 14px;
-    height: 14px;
-    margin-top: 9px;
-    margin-left: -8px;
-  }
-  .header .container .row .cart div.number-cart p {
-    font-size: 10px;
+    right: 113px;
   }
   .header .container .row .cart .slider {
-    margin-top: 13px;
-    font-size: 18px;
+    right: 50px;
   }
   .header .container .row:nth-child(2) .advertise {
     width: 70%;
   }
   .header .container .row:nth-child(2) .advertise p:first-of-type {
     padding-top: 110px;
-    padding-left: 40px;
     font-size: 14px;
     letter-spacing: 8px;
   }
   .header .container .row:nth-child(2) .advertise p:nth-child(2) {
-    padding-left: 40px;
     font-size: 35px;
     letter-spacing: 16px;
     line-height: 1;
   }
   .header .container .row:nth-child(2) .advertise p:nth-child(3) {
     margin-top: 1px;
-    padding-left: 40px;
     font-size: 35px;
     letter-spacing: 17px;
     line-height: 1;
   }
   .header .container .row:nth-child(2) .advertise .advertise-discover {
-    margin-left: 40px;
     margin-top: 35px;
     height: 40px;
     width: 150px;
@@ -275,7 +285,6 @@ a {
   }
   .header .container .row:nth-child(2) .social ul {
     margin-top: 156px;
-    margin-right: 27px;
   }
   .header .container .row:nth-child(2) .social ul li a {
     font-size: 14px;
@@ -294,50 +303,50 @@ a {
   }
 }
 @media all and (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
   .header .container .row .logo {
-    width: 80%;
+    width: 90%;
   }
   .header .container .row .logo img {
     height: 50%;
-    margin: 10px 0 0 40px;
+    margin: 10px 0 0 0;
   }
   .header .container .row .cart {
-    width: 20%;
+    width: 10%;
   }
   .header .container .row .cart a {
-    margin-left: 0px;
-    margin-top: 13px;
     font-size: 14px;
+    top: -30px;
   }
   .header .container .row .cart div.number-cart {
+    top: -30px;
     width: 15px;
     height: 15px;
-    margin-top: 5px;
-    margin-left: -7px;
   }
   .header .container .row .cart div.number-cart .number-cart {
-    font-size: 10px;
+    font-size: 11px;
   }
   .header .container .row .cart .slider {
     margin-top: 15px;
     font-size: 13px;
+    top: 0;
   }
   .header .container .row:nth-child(2) .advertise {
     width: 80%;
   }
   .header .container .row:nth-child(2) .advertise p:first-of-type {
     padding-top: 55px;
-    padding-left: 40px;
     font-size: 14px;
     letter-spacing: 8px;
   }
   .header .container .row:nth-child(2) .advertise p:nth-child(2) {
-    padding-left: 40px;
     font-size: 30px;
     letter-spacing: 10px;
   }
   .header .container .row:nth-child(2) .advertise p:nth-child(3) {
-    padding-left: 40px;
     font-size: 30px;
     letter-spacing: 10px;
   }
@@ -346,16 +355,16 @@ a {
     font-size: 9px;
     height: 31px;
     width: 126px;
+    margin-bottom: 58px;
   }
   .header .container .row:nth-child(2) .social {
     width: 20%;
   }
   .header .container .row:nth-child(2) .social ul {
     margin-top: 50px;
-    margin-right: 25px;
   }
   .header .container .row:nth-child(2) .social ul li a {
-    font-size: 10px;
+    font-size: 13px;
   }
 }
 @media all and (max-width: 576px) {
@@ -364,7 +373,7 @@ a {
   }
   .header .container .row .logo img {
     height: 50%;
-    margin: 10px 0 0 20px;
+    margin: 10px 0 0 0;
   }
   .header .container .row .cart {
     width: 20%;
@@ -373,30 +382,22 @@ a {
     width: 60%;
   }
   .header .container .row:nth-child(2) .advertise p:first-of-type {
-    padding-top: 0px;
-    padding-left: 20px;
     font-size: 12px;
     letter-spacing: 4px;
   }
   .header .container .row:nth-child(2) .advertise p:nth-child(2) {
-    padding-left: 20px;
     font-size: 25px;
     letter-spacing: 6px;
   }
   .header .container .row:nth-child(2) .advertise p:nth-child(3) {
-    padding-left: 20px;
     font-size: 25px;
     letter-spacing: 6px;
-  }
-  .header .container .row:nth-child(2) .advertise .advertise-discover {
-    margin-left: 20px;
   }
   .header .container .row:nth-child(2) .social {
     width: 40%;
   }
   .header .container .row:nth-child(2) .social ul {
     margin-top: 30px;
-    margin-right: 20px;
   }
   .header .container .row:nth-child(2) .social ul li a {
     font-size: 10px;

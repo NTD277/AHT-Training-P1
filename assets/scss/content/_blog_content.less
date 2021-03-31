@@ -87,8 +87,8 @@ section.blog_update{
                     font-family: 'Cormorant Garamond', serif;
                     text-decoration: none;
                     line-height: 1.167;
-                    box-shadow: 1px 3px 23px 15px rgba(227,227,227,0.5);
-                    // box-shadow: 0px 0px 50px 11px rgba();
+                    // box-shadow: 1px 3px 23px 15px rgba(227,227,227,0.5);
+                    box-shadow: 5px 5px 20px 40px #FAF9F9;
                 }
             }
         }
@@ -144,11 +144,15 @@ section.brand {
 @media all and (max-width: 1919px){
     section.blog_update{
         .container{
+            padding-left: 50px;
+            padding-right: 50px;
             .row{
+                // margin: 0 -50px;
                 .blog_update{
                     width: 30%;
                     margin: auto;
                     margin-top: 0;
+                    padding: 0;
                     img{
                         width: 100%;
                     }
@@ -173,8 +177,15 @@ section.brand {
                         }
                     }
                 }
+                .blog_update-01{
+                    margin-left: 0;
+                }
+                .blog_update-03{
+                    margin-right: 0;
+                }
             }
             .category{
+                margin: 0 -50px;
                 p{
                     font-size: 50px;
                 }
@@ -225,6 +236,50 @@ section.brand {
 }
 @media all and (max-width: 1200px){}
 @media all and (max-width: 1024px){
+    section.blog_update{
+        .container{
+            padding-left: 50px;
+            padding-right: 50px;
+            .row{
+                // margin: 0 -50px;
+                .blog_update{
+                    width: 30%;
+                    margin: auto;
+                    margin-top: 0;
+                    padding: 0;
+                    img{
+                        width: 100%;
+                    }
+                    .detail_blog_update{
+                        margin-top: -3px;
+                        a{
+                            br{
+                                display: none;
+                            }
+                        }
+                        .date_of_blog{
+                        }
+                        .name_of_blog {
+                        }
+                        hr {
+                        }
+                        .fa-eye {
+                        }
+                        .fa-share-alt-square {
+                        }
+                        span {
+                        }
+                    }
+                }
+                .blog_update-01{
+                    margin-left: 0;
+                }
+                .blog_update-03{
+                    margin-right: 0;
+                }
+            }
+        }
+    }
     section.brand {
         .container{
             
@@ -245,10 +300,10 @@ section.brand {
                     margin: 25px;
                 }
                 .triton{
-                    margin: 25px;
+                    margin: auto;
                 }
                 .pandora{
-                    margin: 25px;
+                    margin: auto;
                 }
             }
         }
@@ -259,7 +314,7 @@ section.brand {
         .container{
             .row{
                 .blog_update{
-                    width: 50%;
+                    width: 40%;
                     margin: auto;
                     margin-top: 25px;
                 }

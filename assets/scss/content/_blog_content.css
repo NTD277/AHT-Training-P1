@@ -91,7 +91,7 @@ section.blog_update .container .blog .all_blog a {
   font-family: 'Cormorant Garamond', serif;
   text-decoration: none;
   line-height: 1.167;
-  box-shadow: 1px 3px 23px 15px rgba(227, 227, 227, 0.5);
+  box-shadow: 5px 5px 20px 40px #FAF9F9;
 }
 section.brand .container {
   width: 100%;
@@ -134,10 +134,15 @@ section.brand .container .brand .pandora {
   margin-left: 62px;
 }
 @media all and (max-width: 1919px) {
+  section.blog_update .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
   section.blog_update .container .row .blog_update {
     width: 30%;
     margin: auto;
     margin-top: 0;
+    padding: 0;
   }
   section.blog_update .container .row .blog_update img {
     width: 100%;
@@ -147,6 +152,15 @@ section.brand .container .brand .pandora {
   }
   section.blog_update .container .row .blog_update .detail_blog_update a br {
     display: none;
+  }
+  section.blog_update .container .row .blog_update-01 {
+    margin-left: 0;
+  }
+  section.blog_update .container .row .blog_update-03 {
+    margin-right: 0;
+  }
+  section.blog_update .container .category {
+    margin: 0 -50px;
   }
   section.blog_update .container .category p {
     font-size: 50px;
@@ -186,6 +200,31 @@ section.brand .container .brand .pandora {
   }
 }
 @media all and (max-width: 1024px) {
+  section.blog_update .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  section.blog_update .container .row .blog_update {
+    width: 30%;
+    margin: auto;
+    margin-top: 0;
+    padding: 0;
+  }
+  section.blog_update .container .row .blog_update img {
+    width: 100%;
+  }
+  section.blog_update .container .row .blog_update .detail_blog_update {
+    margin-top: -3px;
+  }
+  section.blog_update .container .row .blog_update .detail_blog_update a br {
+    display: none;
+  }
+  section.blog_update .container .row .blog_update-01 {
+    margin-left: 0;
+  }
+  section.blog_update .container .row .blog_update-03 {
+    margin-right: 0;
+  }
   section.brand .container .brand {
     display: flex;
     flex-wrap: wrap;
@@ -204,15 +243,15 @@ section.brand .container .brand .pandora {
     margin: 25px;
   }
   section.brand .container .brand .triton {
-    margin: 25px;
+    margin: auto;
   }
   section.brand .container .brand .pandora {
-    margin: 25px;
+    margin: auto;
   }
 }
 @media all and (max-width: 786px) {
   section.blog_update .container .row .blog_update {
-    width: 50%;
+    width: 40%;
     margin: auto;
     margin-top: 25px;
   }
