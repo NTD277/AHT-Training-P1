@@ -169,32 +169,36 @@ footer .container .contact .social a i {
 @media all and (max-width: 576px) {
   footer .container {
     padding: 15px;
+    position: relative;
+  }
+  footer .container .row {
+    display: initial;
   }
   footer .container .row img {
-    height: auto;
-    width: 15%;
-  }
-  footer .container .row .nav {
-    position: relative;
+    width: 25%;
   }
   footer .container .row .nav a {
     padding: 5px 4.5px;
   }
   footer .container .row .nav a.sub {
     position: absolute;
-    top: 29px;
-    right: 0;
-    padding: 5px;
+    top: 16px;
+    right: 15px;
   }
   footer .container .contact {
     padding-bottom: 20px;
+  }
+  footer .container .contact .address {
+    width: 100%;
+    margin-top: 30px;
   }
   footer .container .contact .address p {
     font-size: 12px;
   }
   footer .container .contact .social {
-    width: 37%;
+    width: 100%;
     margin: auto;
+    text-align: end;
   }
   footer .container .contact .social a {
     padding: 1px;

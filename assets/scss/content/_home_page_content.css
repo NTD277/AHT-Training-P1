@@ -9,8 +9,8 @@
   flex-wrap: wrap;
 }
 .intro .container .row > .item {
-  border-right: 1px solid #efefef;
-  border-bottom: 1px solid #efefef;
+  border-right: 1px solid #cccccc;
+  border-bottom: 1px solid #ffffff;
   flex-wrap: wrap;
 }
 .intro .container .row .item-0 {
@@ -123,7 +123,7 @@
   font-size: 24px;
   font-family: 'Fira Sans', sans-serif;
   text-transform: capitalize;
-  color: #333333;
+  color: #000000;
   letter-spacing: 1.3px;
 }
 .new_product .container .row .new_product-1 .information .new_product_price-1 {
@@ -156,7 +156,7 @@
   width: 100%;
   font-family: 'Fira Sans', sans-serif;
   font-size: 20px;
-  color: #333333;
+  color: #000000;
   margin-top: 37px;
   text-align: center;
   letter-spacing: 2.6px;
@@ -177,7 +177,7 @@
   letter-spacing: 1.3px;
   margin-top: 67px;
   margin-left: 90px;
-  color: #000;
+  color: #000000;
 }
 .new_product .container .row .new_product-3 .information {
   margin-top: -187px;
@@ -207,7 +207,7 @@
   font-size: 24px;
   font-family: 'Fira Sans', sans-serif;
   text-transform: capitalize;
-  color: #333333;
+  color: #000000;
   letter-spacing: 1.3px;
 }
 .new_product .container .row .new_product-5 .information .new_product_price-5 {
@@ -260,7 +260,7 @@ section.featured_items .container .featured_lable p {
   width: 50%;
   font-size: 56px;
   font-family: 'Cormorant Garamond', serif;
-  color: #333333;
+  color: #000000;
   font-weight: bold;
   line-height: 0.5;
   padding: 0 15px;
@@ -269,7 +269,7 @@ section.featured_items .container .featured_lable p {
 section.featured_items .container .featured_lable a {
   font-size: 14px;
   font-family: 'Fira Sans', sans-serif;
-  color: #333333;
+  color: #000000;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.714;
@@ -330,19 +330,19 @@ section.featured_items .container .featured_items .items .information-featured .
 section.featured_items .container .featured_items .items .information-featured .like {
   width: 40px;
   height: 40px;
-  background-color: #333333;
+  background-color: #000000;
   margin-left: 1px;
 }
 section.featured_items .container .featured_items .items .information-featured .compare {
   width: 40px;
   height: 40px;
-  background-color: #333333;
+  background-color: #000000;
   margin-left: 1px;
 }
 section.featured_items .container .featured_items .items .information-featured .search {
   width: 40px;
   height: 40px;
-  background-color: #333333;
+  background-color: #000000;
   margin-left: 1px;
 }
 section.featured_items .container .featured_items .items .name_price_items {
@@ -353,7 +353,7 @@ section.featured_items .container .featured_items .items .name_price_items p:fir
   font-weight: bold;
   font-size: 14px;
   font-family: 'Fira Sans', sans-serif;
-  color: #333333;
+  color: #000000;
   line-height: 2.571;
   letter-spacing: 0.75px;
 }
@@ -373,7 +373,7 @@ section.featured_items .container .featured_items .items .name_price_items p:nth
 }
 @media all and (max-width: 1919px) {
   .intro .container .row {
-    border: 1px solid #efefef;
+    border: 1px solid #ffffff;
     margin: 0 -100px;
   }
   .intro .container .row .item div.item {
@@ -483,7 +483,7 @@ section.featured_items .container .featured_items .items .name_price_items p:nth
     font-size: 24px;
     font-family: 'Fira Sans', sans-serif;
     text-transform: capitalize;
-    color: #333333;
+    color: #000000;
     letter-spacing: 1.3px;
   }
   .new_product .container .row .new_product-1 .information .new_product_price-1 {
@@ -575,7 +575,7 @@ section.featured_items .container .featured_items .items .name_price_items p:nth
     font-size: 24px;
     font-family: 'Fira Sans', sans-serif;
     text-transform: capitalize;
-    color: #333333;
+    color: #000000;
     letter-spacing: 1.3px;
   }
   .new_product .container .row .new_product-5 .information .new_product_price-5 {
@@ -649,7 +649,7 @@ section.featured_items .container .featured_items .items .name_price_items p:nth
 }
 @media all and (max-width: 1200px) {
   .intro .container .row {
-    margin: 0 -100px;
+    margin: 0 -70px;
   }
   .intro .container .row .item-1 {
     height: 50px;
@@ -1266,6 +1266,10 @@ section.featured_items .container .featured_items .items .name_price_items p:nth
     position: absolute;
     right: 10px;
   }
+  section.featured_items .container .featured_items .items .owl-carousel .cloned {
+    width: 0;
+    height: 0;
+  }
   section.featured_items .container .featured_items .items .information-featured {
     width: 100%;
   }
@@ -1284,7 +1288,10 @@ section.featured_items .container .featured_items .items .name_price_items p:nth
 }
 @media all and (max-width: 576px) {
   .intro .container .row .item-1 {
-    height: 50px;
+    height: 35px;
+  }
+  .intro .container .row .item-1 .item-01 {
+    height: 35px;
   }
   .intro .container .row .item-1 .item-01 p:first-of-type {
     font-size: 9px;
@@ -1294,7 +1301,7 @@ section.featured_items .container .featured_items .items .name_price_items p:nth
     font-size: 6px;
   }
   .intro .container .row .item-2 {
-    height: 50px;
+    height: 35px;
   }
   .intro .container .row .item-2 .item-02 p:first-of-type {
     font-size: 9px;
@@ -1304,7 +1311,7 @@ section.featured_items .container .featured_items .items .name_price_items p:nth
     font-size: 6px;
   }
   .intro .container .row .item-3 {
-    height: 50px;
+    height: 35px;
   }
   .intro .container .row .item-3 .item-03 p:first-of-type {
     font-size: 9px;
@@ -1359,27 +1366,28 @@ section.featured_items .container .featured_items .items .name_price_items p:nth
     max-height: 230px;
   }
   .new_product .container .row .new_product-2 .diagonal {
-    border-left: 62px solid white;
-    border-top: 107px solid transparent;
-    margin-top: -93px;
+    border-left: 97px solid white;
+    border-top: 118px solid transparent;
+    margin-top: -117px;
   }
   .new_product .container .row .new_product-2 .information {
     height: 50%;
+    width: 25%;
   }
   .new_product .container .row .new_product-2 .information > p {
     margin-top: 5px;
-    font-size: 9px;
+    font-size: 12px;
   }
   .new_product .container .row .new_product-2 .information p:nth-child(2) {
-    font-size: 20px;
+    font-size: 30px;
   }
   .new_product .container .row .new_product-2 .information p:nth-child(3) {
-    font-size: 7px;
+    font-size: 10px;
   }
   .new_product .container .row .new_product-2 .information a {
     margin: auto;
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 10px;
   }
   .new_product .container .row .new_product-3 img {
     max-height: 230px;
@@ -1426,6 +1434,28 @@ section.featured_items .container .featured_items .items .name_price_items p:nth
     margin: auto;
   }
   section.featured_items .container .featured_items .items .cloned {
-    display: none;
+    width: 0;
+    height: 0;
+  }
+  section.featured_items .container .featured_items .items .information-featured {
+    width: 100%;
+  }
+  section.featured_items .container .featured_items .items .information-featured .add_to_cart {
+    width: 52%;
+  }
+  section.featured_items .container .featured_items .items .information-featured .add_to_cart a {
+    font-size: 12px;
+  }
+  section.featured_items .container .featured_items .items .information-featured .like {
+    width: 15%;
+  }
+  section.featured_items .container .featured_items .items .information-featured .compare {
+    width: 15%;
+  }
+  section.featured_items .container .featured_items .items .information-featured .search {
+    width: 15%;
+  }
+  section.featured_items .container .featured_items .items .name_price_items p:first-of-type {
+    font-size: 12px;
   }
 }

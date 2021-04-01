@@ -1,5 +1,6 @@
-section.blog_update{
-    background-color: #faf9f9;
+// 1920
+.blog_update{
+    background-color: @white;
     .container{
         width: 100%;
         max-width: 1200px;
@@ -16,14 +17,14 @@ section.blog_update{
                 padding: 0 15px;
                 box-sizing: border-box;
                 .detail_blog_update{
-                    background-color: white;
+                    background-color: @white;
                     padding: 0 33px 15px 33px;
                     box-sizing: border-box;
                     .date_of_blog{
                         font-size: 14px;
                         font-family: 'Fira Sans', sans-serif;
                         text-transform: uppercase;
-                        color: #cccccc;
+                        color: @gray-3;
                         padding: 23px 0;
                         letter-spacing: 1.5px;
                     }
@@ -31,7 +32,7 @@ section.blog_update{
                         font-size: 24px;
                         font-family: 'Cormorant Garamond', serif;
                         font-weight: bold;
-                        color: #333333;
+                        color: @black;
                         line-height: 1.333;
                         letter-spacing: 1.2px;
                         margin-top: 25px;
@@ -39,17 +40,17 @@ section.blog_update{
                     }
                     hr {
                         height: 1px;
-                        background-color: #eeeeee;
+                        background-color: @white;
                         margin-top: 51px;
                         margin-bottom: 12px;
                     }
                     .fa-eye {
-                        color: #92c5d9;
+                        color: @blue-white;
                         font-size: 10px;
                     }
                     .fa-share-alt-square {
-                        background-color: #92c5d9;
-                        color: white;
+                        background-color: @blue-white;
+                        color: @white;
                     }
                     span {
                         font-size: 14px;
@@ -88,23 +89,20 @@ section.blog_update{
                     text-decoration: none;
                     line-height: 1.167;
                     // box-shadow: 1px 3px 23px 15px rgba(227,227,227,0.5);
-                    box-shadow: 5px 5px 20px 40px #FAF9F9;
+                    box-shadow: 5px 5px 20px 40px @white;
                 }
             }
         }
     }
 }
-section.brand {
+.brand {
     .container{
         width: 100%;
         max-width: 1200px;
         margin: auto;
-        // padding: 0 15px;
-        // padding-top: 53px;
         box-sizing: border-box;
         .row{
             display: flex;
-            // margin: 0 -40px;
         }
         .brand{
             padding-bottom: 60px;
@@ -127,7 +125,7 @@ section.brand {
             }
             .jubilee{
                 margin-top: 67px;
-                margin-left: 82px;
+                margin-left: 88px;
             }
             .triton{
                 margin-top: 70px;
@@ -135,19 +133,18 @@ section.brand {
             }
             .pandora{
                 margin-top: 95px;
-                margin-left: 62px;
+                margin-left: 67px;
             }
         }
     }
 }
-
+// 1919
 @media all and (max-width: 1919px){
-    section.blog_update{
+    .blog_update{
         .container{
             padding-left: 50px;
             padding-right: 50px;
             .row{
-                // margin: 0 -50px;
                 .blog_update{
                     width: 30%;
                     margin: auto;
@@ -162,18 +159,6 @@ section.brand {
                             br{
                                 display: none;
                             }
-                        }
-                        .date_of_blog{
-                        }
-                        .name_of_blog {
-                        }
-                        hr {
-                        }
-                        .fa-eye {
-                        }
-                        .fa-share-alt-square {
-                        }
-                        span {
                         }
                     }
                 }
@@ -193,13 +178,11 @@ section.brand {
             .blog{
                 .all_blog {
                     margin: auto;
-                    a {
-                    }
                 }
             }
         }
     }
-    section.brand {
+    .brand {
         .container{
             width: 100%;
             margin: auto;
@@ -234,9 +217,33 @@ section.brand {
         }
     }
 }
-@media all and (max-width: 1200px){}
+// 1200
+@media all and (max-width: 1200px){
+    .blog_update{
+        .container{
+            .row{
+                margin: 0;
+            }
+            .category{
+                width: 90%;
+                top: -25px;
+                p{
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+    .brand {
+        .container{
+            .brand{
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+// 1024
 @media all and (max-width: 1024px){
-    section.blog_update{
+    .blog_update{
         .container{
             padding-left: 50px;
             padding-right: 50px;
@@ -257,18 +264,6 @@ section.brand {
                                 display: none;
                             }
                         }
-                        .date_of_blog{
-                        }
-                        .name_of_blog {
-                        }
-                        hr {
-                        }
-                        .fa-eye {
-                        }
-                        .fa-share-alt-square {
-                        }
-                        span {
-                        }
                     }
                 }
                 .blog_update-01{
@@ -280,7 +275,7 @@ section.brand {
             }
         }
     }
-    section.brand {
+    .brand {
         .container{
             
             .brand{
@@ -309,8 +304,9 @@ section.brand {
         }
     }
 }
-@media all and (max-width: 786px){
-    section.blog_update{
+// 768
+@media all and (max-width: 768px){
+    .blog_update{
         .container{
             .row{
                 .blog_update{
@@ -327,15 +323,14 @@ section.brand {
             .blog{
                 .all_blog {
                     margin: auto;
-                    a {
-                    }
                 }
             }
         }
     }
 }
+// 576
 @media all and (max-width: 576px){
-    section.blog_update{
+    .blog_update{
         .container{
             .row{
                 .blog_update{
@@ -345,15 +340,51 @@ section.brand {
                 }
             }
             .category{
+                width: 75%;
                 p{
-                    font-size: 50px;
+                    font-size: 30px;
+                    padding-top: 50px;
                 }
             }
             .blog{
                 .all_blog {
                     margin: auto;
                     a {
+                        font-size: 14px;
                     }
+                }
+            }
+        }
+    }
+    .brand {
+        .container{
+            
+            .brand{
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0;
+                .rolex{
+                    margin: auto;
+                    margin-top: 15px;
+                }
+                .elle{
+                    margin: auto;
+                    margin-top: 15px;
+                }
+                .logo-03{
+                    margin: auto;
+                    margin-top: 15px;
+                }
+                .jubilee{
+                    margin: auto;
+                    margin-top: 15px;
+                }
+                .triton{
+                    margin: auto;
+                    // margin-top: 15px;
+                }
+                .pandora{
+                    margin: auto;
                 }
             }
         }

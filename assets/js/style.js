@@ -6,12 +6,45 @@ $(document).ready(function() {
     });
 
     $(".blog_update .all_blog a").hover(function() {
-        $(this).css("font-weight", "bold");
-        $(this).css("text-decoration", "underline");
+            $(this).css("font-weight", "bold");
+            $(this).css("text-decoration", "underline");
+        }, function() {
+            $(this).css("font-weight", "initial");
+            $(this).css("text-decoration", "none");
+        })
+        // hover brand
+    $(".brand img.jubilee").hover(function() {
+        $(this).attr("src", "assets/images/Logo_Jubilee-hover.png")
     }, function() {
-        $(this).css("font-weight", "initial");
-        $(this).css("text-decoration", "none");
-    })
+        $(this).attr("src", "assets/images/Logo_Jubilee.png")
+    });
+    $(".brand img.logo-03").hover(function() {
+        $(this).attr("src", "assets/images/Logo_Download-hover.png")
+    }, function() {
+        $(this).attr("src", "assets/images/Logo_Download.png")
+    });
+    $(".brand img.triton").hover(function() {
+        $(this).attr("src", "assets/images/Logo_TRITON-hover.png")
+    }, function() {
+        $(this).attr("src", "assets/images/Logo_TRITON.png")
+    });
+    $(".brand img.rolex").hover(function() {
+        $(this).attr("src", "assets/images/Logo_ROLEX-hover.png")
+    }, function() {
+        $(this).attr("src", "assets/images/Logo_ROLEX.png")
+    });
+    $(".brand img.elle").hover(function() {
+        $(this).attr("src", "assets/images/Logo_ELLE-hover.png")
+    }, function() {
+        $(this).attr("src", "assets/images/Logo_ELLE.png")
+    });
+    $(".brand img.pandora").hover(function() {
+        $(this).attr("src", "assets/images/Logo_PANDORA-hover.png")
+    }, function() {
+        $(this).attr("src", "assets/images/Logo_PANDORA.png")
+    });
+
+
     $(".items").hover(function() {
             $(this).find(".information-featured").css("display", "initial");
             $(this).find(".owl-nav").css("display", "initial");

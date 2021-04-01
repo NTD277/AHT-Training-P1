@@ -1,5 +1,6 @@
+// 1920
 footer {
-    background-color: #333333;
+    background-color: @black-2;
     .container {
         width: 100%;
         max-width: 1170px;
@@ -20,7 +21,7 @@ footer {
                 a {
                     font-size: 14px;
                     font-family: 'Fira Sans', sans-serif;
-                    color: #ababab;
+                    color: @gray-2;
                     font-weight: bold;
                     text-transform: uppercase;
                     text-decoration: none;
@@ -29,8 +30,9 @@ footer {
                     letter-spacing: 0.6px;
                 }
                 a.sub {
-                    border: 1px solid #ffffff;
+                    border: 1px solid @white;
                     padding: 10px 20px;
+                    margin-top: 30px;
                     margin-left: 150px;
                     letter-spacing: 2px;
                     line-height: 1.714;
@@ -49,7 +51,7 @@ footer {
                 p {
                     font-size: 14px;
                     font-family: 'Fira Sans', sans-serif;
-                    color: #696969;
+                    color: @gray;
                     line-height: 2;
                     letter-spacing: 0px;
                 }
@@ -59,17 +61,17 @@ footer {
                 margin-top: 48px;
                 a {
                     padding: 15px;
-                    border: 1px #ffffff solid;
+                    border: 1px @white solid;
                     border-radius: 100%;
                     word-wrap: 1px;
-                    background-color: #333333;
-                    color: #ffffff;
+                    background-color: @black-2;
+                    color: @white;
                     margin-left: 5px;
                     text-align: center;
                     i {
                         width: 16px;
                         height: 16px;
-                        background-color: #333333;
+                        background-color: @black-2;
                     }
                 }
             }
@@ -77,6 +79,45 @@ footer {
     }
     
 }
+// 1919
+@media all and (max-width: 1919px){
+footer{
+    .container {
+        .row {
+            img {
+                margin-right: 50px;
+            }
+            .nav {
+                a.sub {
+                    margin-left: 0;
+                }
+            }
+        }
+        .contact {
+            .social {
+                margin-left: 300px;
+                margin-top: 48px;
+                a {
+                    padding: 15px;
+                    border: 1px @white solid;
+                    border-radius: 100%;
+                    word-wrap: 1px;
+                    background-color: @black-2;
+                    color: @white;
+                    margin-left: 5px;
+                    text-align: center;
+                    i {
+                        width: 16px;
+                        height: 16px;
+                        background-color: @black-2;
+                    }
+                }
+            }
+        }
+    }
+}
+}
+// 1200
 @media all and (max-width: 1200px){
     footer {
         .container {
@@ -88,8 +129,6 @@ footer {
                 .nav {
                     margin: auto;
                     margin-bottom: 0;
-                    a {
-                    }
                     a.sub {
                         margin: 0;
                     }
@@ -110,6 +149,7 @@ footer {
         
     }
 }
+// 1024
 @media all and (max-width: 1024px){
     footer {
         .container {
@@ -149,7 +189,8 @@ footer {
         
     }
 }
-@media all and (max-width: 786px){
+//768
+@media all and (max-width: 768x){
     footer {
         .container {
             padding: 15px;
@@ -193,38 +234,41 @@ footer {
         
     }
 }
+// 576
 @media all and (max-width: 576px){
     footer {
         .container {
             padding: 15px;
+            position: relative;
             .row {
+                display: initial;
                 img {
-                    height: auto;
-                    width: 15%;
+                    width: 25%;
                 }
                 .nav {
-                    position: relative;
                     a {
                         padding: 5px 4.5px;
                     }
                     a.sub {
                         position: absolute;
-                        top: 29px;
-                        right: 0;
-                        padding: 5px;
+                        top: 16px;
+                        right: 15px;
                     }
                 }
             }
             .contact {
                 padding-bottom: 20px;
                 .address {
+                    width: 100%;
+                    margin-top: 30px;
                     p {
                         font-size: 12px;
                     }
                 }
                 .social {
-                    width: 37%;
+                    width: 100%;
                     margin: auto;
+                    text-align: end;
                     a {
                         padding: 1px;
                         i {

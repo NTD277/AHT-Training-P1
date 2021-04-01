@@ -1,15 +1,15 @@
 /*<-----------------------------------3.1 Home_page_content--------------------------------------------->*/
+// 1920
 .intro{
     .container{
         width: 100%;
         position: relative;
         .row{
             position: relative;
-            display: flex;
-            flex-wrap: wrap;
+            .flex_100;
             >.item{
-                border-right: 1px solid #efefef;
-                border-bottom: 1px solid #efefef;
+                border-right: 1px solid @gray-3;
+                border-bottom: 1px solid @gray-3;
                 flex-wrap: wrap;
             }
             .item-0{
@@ -37,7 +37,7 @@
                     +p{
                         height: 50%;
                         text-align: center;
-                        color: #ababab;
+                        color: @gray-2;
                         font-size: 14px;
                         font-weight: bold;
                         text-transform: uppercase;
@@ -88,7 +88,7 @@
             margin-top: -8px;
             margin-bottom: -18px;
             height: 332px;
-            display: flex;
+            .flex_100;
             p {
                 max-width: 775px;
                 font-family: 'Cormorant Garamond', serif;
@@ -137,12 +137,12 @@
                         font-size: 24px;
                         font-family: 'Fira Sans', sans-serif;
                         text-transform: capitalize;
-                        color: #333333;
+                        color: @black;
                         letter-spacing: 1.3px;
                     }
                     .new_product_price-1{
                         font-size: 24px;
-                        color: #d6ba8d;
+                        color: @yellow-gray;
                         margin-top: 20px;
                     }
                 }
@@ -174,7 +174,7 @@
                         width: 100%;
                         font-family: 'Fira Sans', sans-serif;
                         font-size: 20px;
-                        color: #333333;
+                        color: @black;
                         margin-top: 37px;
                         text-align: center;
                         letter-spacing: 2.6px;
@@ -195,7 +195,7 @@
                         letter-spacing: 1.3px;
                         margin-top: 67px;
                         margin-left: 90px;
-                        color: #000;
+                        color: @black;
                     }
                 }
             }
@@ -217,7 +217,7 @@
                         text-transform: capitalize;
                         word-spacing: 11px;
                         margin-top: 12px;
-                        color: #d6ba8d;
+                        color: @yellow-gray;
                     }
                 }
                 
@@ -230,12 +230,12 @@
                         font-size: 24px;
                         font-family: 'Fira Sans', sans-serif;
                         text-transform: capitalize;
-                        color: #333333;
+                        color: @black;
                         letter-spacing: 1.3px;
                     }
                     .new_product_price-5 {
                         font-size: 24px;
-                        color: #d6ba8d;
+                        color: @yellow-gray;
                         margin-top: 19px;
                         margin-left: -2px;
                     }
@@ -257,7 +257,7 @@
                     .note {
                         font-size: 16px;
                         font-family: 'Fira Sans', sans-serif;
-                        color: #696969;
+                        color: @gray;
                         word-spacing: -1.1px;
                         line-height: 1.55;
                         margin-top: 19px;
@@ -268,7 +268,7 @@
         }
     }
 }
-section.featured_items {
+.featured_items {
     margin-bottom: 96px;
     .container{
         width: 100%;
@@ -285,7 +285,7 @@ section.featured_items {
                 width: 50%;
                 font-size: 56px;
                 font-family: 'Cormorant Garamond', serif;
-                color: #333333;
+                color: @black;
                 font-weight: bold;
                 line-height: 0.5;
                 padding: 0 15px;
@@ -294,7 +294,7 @@ section.featured_items {
             a{
                 font-size: 14px;
                 font-family: 'Fira Sans', sans-serif;
-                color: #333333;
+                color: @black;
                 font-weight: bold;
                 text-transform: uppercase;
                 line-height: 1.714;
@@ -303,7 +303,7 @@ section.featured_items {
                 letter-spacing: 2px;
                 text-decoration: none;
                 .fa-play-circle{
-                    color:#d6ba8d;
+                    color:@yellow-gray;
                     margin-left: 4px;
                     margin-top: 5px;
                 }
@@ -312,6 +312,7 @@ section.featured_items {
         .row{ 
             display: flex;
             flex-wrap: wrap;
+            
             margin: 0 -15px;
         } 
         .featured_items{
@@ -345,7 +346,7 @@ section.featured_items {
                     a{
                         text-decoration: none;
                         margin: auto;
-                        color: #ffffff;
+                        color: @white;
                         text-transform: uppercase;
                         font-size: 14px;
                         font-family: 'Fira Sans', sans-serif;
@@ -353,24 +354,24 @@ section.featured_items {
                     .add_to_cart{
                         width: 147px;
                         height: 40px;
-                        background-color: #d6ba8d;
+                        background-color: @yellow-gray;
                     }
                     .like{
                         width: 40px;
                         height: 40px;
-                        background-color: #333333;
+                        background-color: @black;
                         margin-left: 1px;
                     }
                     .compare{
                         width: 40px;
                         height: 40px;
-                        background-color: #333333;
+                        background-color: @black;
                         margin-left: 1px;
                     }
                     .search{
                         width: 40px;
                         height: 40px;
-                        background-color: #333333;
+                        background-color: @black;
                         margin-left: 1px;
                     }
                 }
@@ -381,14 +382,14 @@ section.featured_items {
                         font-weight: bold;
                         font-size: 14px;
                         font-family: 'Fira Sans', sans-serif;
-                        color: #333333;
+                        color: @black;
                         line-height: 2.571;
                         letter-spacing: 0.75px;
                     }
                     p:nth-of-type(2){
                         font-size: 18px;
                         font-family: 'Fira Sans', sans-serif;
-                        color: #d6ba8d;
+                        color: @yellow-gray;
                         // font-weight: bold;
                         text-transform: uppercase;
                         line-height: 2;
@@ -401,15 +402,12 @@ section.featured_items {
         }
     }
 }
-._flex{
-    display: flex;
-    flex-wrap: wrap;
-}
+// 1919
 @media all and (max-width: 1919px){
     .intro{
         .container{
             .row{
-                border: 1px solid #efefef;
+                border: 1px solid @white;
                 margin: 0 -100px;
                 .item{
                     div.item{
@@ -524,12 +522,12 @@ section.featured_items {
                             font-size: 24px;
                             font-family: 'Fira Sans', sans-serif;
                             text-transform: capitalize;
-                            color: #333333;
+                            color: @black;
                             letter-spacing: 1.3px;
                         }
                         .new_product_price-1{
                             font-size: 24px;
-                            color: #d6ba8d;
+                            color: @yellow-gray;
                             margin-top: 20px;
                         }
                     }
@@ -599,7 +597,7 @@ section.featured_items {
                             text-transform: capitalize;
                             word-spacing: 11px;
                             margin-top: 12px;
-                            color: #d6ba8d;
+                            color: @yellow-gray;
                         }
                     }
                     
@@ -624,12 +622,12 @@ section.featured_items {
                             font-size: 24px;
                             font-family: 'Fira Sans', sans-serif;
                             text-transform: capitalize;
-                            color: #333333;
+                            color: @black;
                             letter-spacing: 1.3px;
                         }
                         .new_product_price-5 {
                             font-size: 24px;
-                            color: #d6ba8d;
+                            color: @yellow-gray;
                             margin-top: 19px;
                             margin-left: -2px;
                         }
@@ -656,7 +654,7 @@ section.featured_items {
                         .note {
                             font-size: 16px;
                             font-family: 'Fira Sans', sans-serif;
-                            color: #696969;
+                            color: @gray;
                             word-spacing: -1.1px;
                             line-height: 1.55;
                             margin-top: 19px;
@@ -667,7 +665,7 @@ section.featured_items {
             }
         }
     }
-    section.featured_items {
+    .featured_items {
         .container{
             .featured_lable{
                 p{
@@ -715,11 +713,12 @@ section.featured_items {
         }
     }
 }
+// 1200
 @media all and (max-width: 1200px){
     .intro{
         .container{
             .row{
-                margin: 0 -100px;
+                margin: 0 -70px;
                 .item-1{
                     height: 50px;
                     .item-01{
@@ -762,10 +761,6 @@ section.featured_items {
                 }
             }
         }
-    }
-    ._flex{
-        display: flex;
-        flex-wrap: wrap;
     }
     .new_product{
         .container{
@@ -937,7 +932,7 @@ section.featured_items {
             }
         }
     }
-    section.featured_items {
+    .featured_items {
         .container{
             padding: 0 50px;
             .row{
@@ -994,6 +989,7 @@ section.featured_items {
     }
     
 }
+// 1024
 @media all and (max-width: 1024px){
     .intro{
         .container{
@@ -1043,10 +1039,6 @@ section.featured_items {
                 }
             }
         }
-    }
-    ._flex{
-        display: flex;
-        flex-wrap: wrap;
     }
     .new_product{
         .container{
@@ -1218,7 +1210,7 @@ section.featured_items {
             }
         }
     }
-    section.featured_items {
+    .featured_items {
         .container{
             padding: 0 50px;
             .row{
@@ -1276,7 +1268,8 @@ section.featured_items {
         }
     }
 }
-@media all and (max-width: 786px){
+// 768
+@media all and (max-width: 768px){
         .intro{
             .container{
                 .row{
@@ -1324,10 +1317,6 @@ section.featured_items {
                     }
                 }
             }
-        }
-        ._flex{
-            display: flex;
-            flex-wrap: wrap;
         }
         .new_product{
             .container{
@@ -1433,7 +1422,7 @@ section.featured_items {
                 }
             }
         }
-        section.featured_items {
+        .featured_items {
             .container{
                 .featured_lable{
                     p{
@@ -1448,12 +1437,17 @@ section.featured_items {
                             .owl-nav{
                                 .owl-prev{
                                     position: absolute;
-                                    left:10px
+                                    left: 10px;
                                 }
                                 .owl-next{
                                     position: absolute;
-                                    right:10px
+                                    right: 10px;
                                 }
+                                
+                            }
+                            .cloned{
+                                width: 0;
+                                height: 0;
                             }
                         }
                         .information-featured{
@@ -1476,13 +1470,15 @@ section.featured_items {
             }
         }
     }
+// 576
 @media all and (max-width: 576px){
     .intro{
         .container{
             .row{
                 .item-1{
-                    height: 50px;
+                    height: 35px;
                     .item-01{
+                        height: 35px;
                         p:first-of-type{
                             font-size: 9px;
                             letter-spacing: 1px;
@@ -1493,7 +1489,7 @@ section.featured_items {
                     }
                 }
                 .item-2{
-                    height: 50px;
+                    height: 35px;
                     .item-02{
                         p:first-of-type{
                             font-size: 9px;
@@ -1505,7 +1501,7 @@ section.featured_items {
                     }
                 }
                 .item-3{    
-                    height: 50px;
+                    height: 35px;
                     .item-03{
                         p:first-of-type{
                             font-size: 9px;
@@ -1525,10 +1521,6 @@ section.featured_items {
                 }
             }
         }
-    }
-    ._flex{
-        display: flex;
-        flex-wrap: wrap;
     }
     .new_product{
         .container{
@@ -1570,26 +1562,27 @@ section.featured_items {
                         max-height: 230px;
                     }
                     .diagonal{
-                        border-left: 62px solid white;
-                        border-top: 107px solid transparent;
-                        margin-top: -93px;
+                        border-left: 97px solid white;
+                        border-top: 118px solid transparent;
+                        margin-top: -117px;
                     }
                     .information {
                         height: 50%;
+                        width: 25%;
                         >p {
                             margin-top: 5px;
-                            font-size: 9px;
+                            font-size: 12px;
                         }
                         p:nth-child(2) {
-                            font-size: 20px;
+                            font-size: 30px;
                         }
                         p:nth-child(3) {
-                            font-size: 7px;
+                            font-size: 10px;
                         }
                         a {
                             margin: auto;
                             margin-top: 10px;
-                            font-size: 7px;
+                            font-size: 10px;
                         }
                     }
                 }
@@ -1643,7 +1636,7 @@ section.featured_items {
             }
         }
     }
-    section.featured_items {
+    .featured_items {
         .container{
             .featured_lable{
                 height: 100px;
@@ -1660,9 +1653,35 @@ section.featured_items {
                     width: 70%;
                     margin: auto;
                     .cloned{
-                        display: none;
+                        // display: none;
+                        width: 0;
+                        height: 0;
                     }
+                    .information-featured{
+                        width: 100%;
+                        .add_to_cart{
+                            width: 52%;
+                            a{
+                                font-size: 12px;
+                            }
+                        }
+                        .like{
+                            width: 15%;
+                        }
+                        .compare{
+                            width: 15%;
+                        }
+                        .search{
+                            width: 15%;
+                        }
+                    }
+                    .name_price_items{
+                        p:first-of-type{
+                            font-size: 12px;
+                        }
+                    } 
                 }
+                
             }
         }
     }
