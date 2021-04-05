@@ -163,7 +163,8 @@ footer{
                     margin: auto;
                     margin-bottom: 0;
                     a {
-                        font-size: 9px;
+                        font-size: 12px;
+                        padding: 5px 4px;
                     }
                     a.sub {
                         margin: 0;
@@ -173,7 +174,7 @@ footer{
             .contact {
                 .address {
                     p {
-                        font-size: 12px;
+                        font-size: 14px;
                     }
                 }
                 .social {
@@ -190,9 +191,10 @@ footer{
     }
 }
 //768
-@media all and (max-width: 768x){
+@media all and (max-width: 768px){
     footer {
         .container {
+            position: relative;
             padding: 15px;
             .row {
                 img {
@@ -203,10 +205,13 @@ footer{
                     margin: auto;
                     margin-bottom: 0;
                     a {
-                        padding: 5px 7.5px;
+                        // font-size:20px;
+                        
                     }
                     a.sub {
-                        margin: 0;
+                        position: absolute;
+                        right: 50px;
+                        top: 77px;
                     }
                 }
             }
@@ -251,7 +256,7 @@ footer{
                     }
                     a.sub {
                         position: absolute;
-                        top: 16px;
+                        top: 95px;
                         right: 15px;
                     }
                 }
