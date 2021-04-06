@@ -265,7 +265,7 @@ a {
 }
 @media all and (max-width: 1200px) {
   .container {
-    padding: 0 70px;
+    padding: 0 20px;
     box-sizing: border-box;
   }
   .header .container .row .logo {
@@ -324,7 +324,7 @@ a {
 }
 @media all and (max-width: 1024px) {
   .container {
-    padding: 0 50px;
+    padding: 0 20px;
     box-sizing: border-box;
   }
   .header .container .row .logo {
@@ -449,7 +449,7 @@ a {
   }
   .header .container .row:nth-child(2) .advertise .advertise-discover {
     margin-top: 10px;
-    font-size: 9px;
+    font-size: 12px;
     height: 31px;
     width: 126px;
     margin-bottom: 58px;
@@ -497,6 +497,6 @@ a {
     margin-top: 30px;
   }
   .header .container .row:nth-child(2) .social ul li a {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
