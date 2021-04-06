@@ -69,6 +69,7 @@ $(document).ready(function() {
         if (width < 1200) {
             $(".items").click(function() {
                 $(this).find(".information-featured").toggle();
+                $(this).find(".information-featured").css("display", "initial");
                 $(this).find(".owl-nav").css("display", "initial");;
             });
         }
