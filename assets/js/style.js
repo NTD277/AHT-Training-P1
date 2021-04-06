@@ -1,4 +1,27 @@
 $(document).ready(function() {
+
+    $(window).resize(function() {
+        var width = $(window).width();
+        if (width < 1201) {
+            $(".items").click(function() {
+                // $(this).find(".information-featured").toggle();
+                $(".items").find(".information-featured").css("display", "none");
+                $(".items").find(".owl-nav").css("display", "none");
+                $(this).find(".information-featured").css("display", "initial");
+                $(this).find(".owl-nav").css("display", "initial");;
+            });
+        } else {
+            $(".items").hover(function() {
+                    $(this).find(".information-featured").css("display", "initial");
+                    $(this).find(".owl-nav").css("display", "initial");
+                },
+                function() {
+                    $(".information-featured").css("display", "none");
+                    $(".owl-nav").css("display", "none");
+                });
+        }
+    });
+
     $(".social ul li a").hover(function() {
         $(this).find(".social-hover").css("display", "initial")
     }, function() {
@@ -44,36 +67,14 @@ $(document).ready(function() {
         $(this).attr("src", "assets/images/Logo_PANDORA.png")
     });
 
-
-    $(".items").hover(function() {
-            $(this).find(".information-featured").css("display", "initial");
-            $(this).find(".owl-nav").css("display", "initial");
-        },
-        function() {
-            $(".information-featured").css("display", "none");
-            $(".owl-nav").css("display", "none");
-        });
-
-
-
-
-    $("footer .container .nav a").click(function() {
+    $("footer .container .nav a").hover(function() {
             $(this).css("color", "#d6ba8d");
         },
         function() {
             $(this).css("color", "#ababab");
         }
     );
-    $(window).resize(function() {
-        var width = $(window).width();
-        if (width < 1200) {
-            $(".items").click(function() {
-                $(this).find(".information-featured").toggle();
-                $(this).find(".information-featured").css("display", "initial");
-                $(this).find(".owl-nav").css("display", "initial");;
-            });
-        }
-    });
+
 
 
     $("footer .social a").hover(function() {
