@@ -53,6 +53,10 @@ $(document).ready(function() {
             $(".information-featured").css("display", "none");
             $(".owl-nav").css("display", "none");
         });
+
+
+
+
     $("footer .container .nav a").click(function() {
             $(this).css("color", "#d6ba8d");
         },
@@ -60,17 +64,13 @@ $(document).ready(function() {
             $(this).css("color", "#ababab");
         }
     );
-
-    $(".items").click(function() {
-        $(this).find(".information-featured").toggle();
-        $(this).find(".owl-nav").toggle();
-    });
-
-
     $(window).resize(function() {
         var width = $(window).width();
         if (width < 1200) {
-            alert('Your screen is too small');
+            $(".items").click(function() {
+                $(this).find(".information-featured").toggle();
+                $(this).find(".owl-nav").css("display", "initial");;
+            });
         }
     });
 
