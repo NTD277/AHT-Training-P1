@@ -6,15 +6,16 @@
         position: relative;
         .row{
             position: relative;
+            border-bottom: 1px solid @gray-3;
             .flex_100;
             >.item{
                 border-right: 1px solid @gray-3;
-                border-bottom: 1px solid @gray-3;
                 flex-wrap: wrap;
             }
             .item-0{
                 width: 374px;
                 height: 80px;
+                border: 0;
             }
             .item-1, .item-3{
                 width: 384px;
@@ -48,14 +49,18 @@
                 }
             }
             .item-1{
+                border-left: 1px solid @gray-3;;
                 .item-01{
+                    
                     p:first-of-type{
                         margin-top: 15px;
                         margin-left: -5px;
+                        border: 0;
                     }
                     p:nth-child(2){
                         margin-left: -6px;
                         margin-top: 0;
+                        border: 0;
                     }
                 }
             }
@@ -423,7 +428,7 @@
     .intro{
         .container{
             .row{
-                border: 1px solid @white;
+                // border: 1px solid @white;
                 margin: 0 -100px;
                 .item{
                     div.item{
@@ -1011,7 +1016,6 @@
         .container{
             .row{
                 margin: 0 -20px;
-                border: 0;
                 .item-1{
                     height: 50px;
                     .item-01{
