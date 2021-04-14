@@ -1,26 +1,25 @@
 $(document).ready(function() {
 
-    $(window).resize(function() {
-        var width = $(window).width();
-        if (width < 1201) {
-            $(".items").click(function() {
-                // $(this).find(".information-featured").toggle();
-                $(".items").find(".information-featured").css("display", "none");
-                $(".items").find(".owl-nav").css("display", "none");
+
+    if (window.innerWidth < 1200) {
+        $(".items").click(function() {
+            // $(this).find(".information-featured").toggle();
+
+            $(".items").find(".information-featured").css("display", "none");
+            $(".items").find(".owl-nav").css("display", "none");
+            $(this).find(".information-featured").css("display", "initial");
+            $(this).find(".owl-nav").css("display", "initial");;
+        });
+    } else {
+        $(".items").hover(function() {
                 $(this).find(".information-featured").css("display", "initial");
-                $(this).find(".owl-nav").css("display", "initial");;
+                $(this).find(".owl-nav").css("display", "initial");
+            },
+            function() {
+                $(".information-featured").css("display", "none");
+                $(".owl-nav").css("display", "none");
             });
-        } else {
-            $(".items").hover(function() {
-                    $(this).find(".information-featured").css("display", "initial");
-                    $(this).find(".owl-nav").css("display", "initial");
-                },
-                function() {
-                    $(".information-featured").css("display", "none");
-                    $(".owl-nav").css("display", "none");
-                });
-        }
-    });
+    }
 
     $(".social ul li a").hover(function() {
         $(this).find(".social-hover").css("display", "initial")
@@ -74,8 +73,6 @@ $(document).ready(function() {
             $(this).css("color", "#ababab");
         }
     );
-
-
 
     $("footer .social a").hover(function() {
             $(this).css("background-color", "#d6ba8d");

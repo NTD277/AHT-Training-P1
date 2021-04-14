@@ -1,25 +1,32 @@
 // 1920
-.blog_update{
+.blog_update {
     background-color: @white;
-    .container{
+
+    .container {
         width: 100%;
         max-width: 1200px;
         margin: auto;
         padding: 110px 15px 0 15px;
         box-sizing: border-box;
         position: relative;
-        .row{
-            display: flex;
-            flex-wrap: wrap;
-            .blog_update{
-                width: 33.3333%;
+
+        .row {
+            // display: flex;
+            // flex-wrap: wrap;
+            .flex_100;
+            margin: 0 -15px;
+
+            .blog_update {
+                width: 370px;
                 padding: 0 15px;
-                box-sizing: border-box;
-                .detail_blog_update{
+
+                .detail_blog_update {
                     background-color: @white;
+                    margin-top: -3px;
                     padding: 0 33px 15px 33px;
                     box-sizing: border-box;
-                    .date_of_blog{
+
+                    .date_of_blog {
                         font-size: 14px;
                         font-family: 'Fira Sans', sans-serif;
                         text-transform: uppercase;
@@ -27,6 +34,7 @@
                         padding: 23px 0;
                         letter-spacing: 1.5px;
                     }
+
                     .name_of_blog {
                         font-size: 24px;
                         font-family: 'Cormorant Garamond', serif;
@@ -37,20 +45,24 @@
                         margin-top: 25px;
                         text-decoration: none;
                     }
+
                     hr {
                         height: 1px;
                         background-color: @white;
                         margin-top: 51px;
                         margin-bottom: 12px;
                     }
+
                     .fa-eye {
                         color: @blue-white;
                         font-size: 11px;
                     }
+
                     .fa-share-alt-square {
                         background-color: @blue-white;
                         color: @white;
                     }
+
                     span {
                         font-size: 14px;
                         font-family: 'Fira Sans', sans-serif;
@@ -61,11 +73,13 @@
                 }
             }
         }
-        .category{
+
+        .category {
             position: absolute;
             width: 100%;
             top: -42px;
-            p{
+
+            p {
                 font-size: 56px;
                 font-family: 'Cormorant Garamond', serif;
                 margin: auto;
@@ -74,182 +88,213 @@
                 font-weight: 700;
             }
         }
-        .blog{
+
+        .blog {
             height: 184px;
             display: flex;
             flex-wrap: wrap;
             margin: 0 -15px;
             padding-bottom: 5px;
+
             .all_blog {
                 margin-top: 66px;
                 margin-left: 547px;
+
                 a {
                     font-size: 24px;
                     font-family: 'Cormorant Garamond', serif;
                     text-decoration: none;
                     line-height: 1.167;
-                    // box-shadow: 1px 3px 23px 15px rgba(227,227,227,0.5);
                     box-shadow: 5px 5px 20px 40px @white;
                 }
             }
         }
     }
 }
+
 .brand {
-    .container{
+    .container {
         width: 100%;
         max-width: 1200px;
         margin: auto;
         box-sizing: border-box;
-        .row{
+
+        .row {
             display: flex;
         }
-        .brand{
-            padding-bottom: 60px;
-            img{
+
+        .brand {
+            padding-bottom: 64px;
+
+            img {
                 // width: 100%;
                 width: auto;
                 height: 100%;
             }
-            .rolex{
+
+            .rolex {
                 margin-top: 73px;
-                 margin-left: 38px;
+                margin-left: 38px;
             }
-            .elle{
+
+            .elle {
                 margin-top: 84px;
-                 margin-left: 79px;
+                margin-left: 79px;
             }
-            .logo-03{
+
+            .logo-03 {
                 margin-top: 83px;
                 margin-left: 77px;
             }
-            .jubilee{
+
+            .jubilee {
                 margin-top: 67px;
                 margin-left: 88px;
             }
-            .triton{
+
+            .triton {
                 margin-top: 70px;
                 margin-left: 86px;
             }
-            .pandora{
+
+            .pandora {
                 margin-top: 95px;
                 margin-left: 67px;
             }
         }
     }
 }
+
 // 1919
-@media all and (max-width: 1919px){
-    .blog_update{
-        .container{
-            .row{
-                .blog_update{
+@media all and (max-width: 1919px) {
+    .blog_update {
+        .container {
+            .row {
+                .blog_update {
                     width: 30%;
                     margin: auto;
                     margin-top: 0;
                     padding: 0;
-                    img{
+
+                    img {
                         width: 100%;
                     }
-                    .detail_blog_update{
+
+                    .detail_blog_update {
                         margin-top: -3px;
-                        a{
-                            br{
+
+                        a {
+                            br {
                                 display: none;
                             }
                         }
                     }
                 }
-                .blog_update-01{
-                }
-                .blog_update-03{
-                }
             }
-            .category{
-                p{
+
+            .category {
+                p {
                     font-size: 50px;
                 }
             }
-            .blog{
+
+            .blog {
                 .all_blog {
                     margin: auto;
                 }
             }
         }
     }
+
     .brand {
-        .container{
+        .container {
             width: 100%;
             margin: auto;
             box-sizing: border-box;
-            .row{
+
+            .row {
                 padding: 30px 0;
             }
-            .brand{
-                img{
+
+            .brand {
+                img {
                     width: auto;
                     height: 100%;
                 }
-                .rolex{
+
+                .rolex {
                     margin: auto;
                 }
-                .elle{
+
+                .elle {
                     margin: auto;
                 }
-                .logo-03{
+
+                .logo-03 {
                     margin: auto;
                 }
-                .jubilee{
+
+                .jubilee {
                     margin: auto;
                 }
-                .triton{
+
+                .triton {
                     margin: auto;
                 }
-                .pandora{
+
+                .pandora {
                     margin: auto;
                 }
             }
         }
     }
 }
+
 // 1200
-@media all and (max-width: 1200px){
-    .blog_update{
-        .container{
+@media all and (max-width: 1200px) {
+    .blog_update {
+        .container {
             padding: 110px 20px 0 20px;
-            .category{
+
+            .category {
                 top: -25px;
-                p{
+
+                p {
                     font-size: 40px;
                 }
             }
         }
     }
+
     .brand {
-        .container{
-            .brand{
+        .container {
+            .brand {
                 padding-bottom: 45px;
             }
         }
     }
 }
+
 // 1024
-@media all and (max-width: 1024px){
-    .blog_update{
-        .container{
-            .row{
-                .blog_update{
+@media all and (max-width: 1024px) {
+    .blog_update {
+        .container {
+            .row {
+                .blog_update {
                     width: 30%;
                     margin: auto;
                     margin-top: 0;
                     padding: 0;
-                    img{
+
+                    img {
                         width: 100%;
                     }
-                    .detail_blog_update{
+
+                    .detail_blog_update {
                         padding: 0 10px;
-                        a{
-                            br{
+
+                        a {
+                            br {
                                 display: none;
                             }
                         }
@@ -258,92 +303,111 @@
             }
         }
     }
+
     .brand {
-        .container{
-            
-            .brand{
+        .container {
+
+            .brand {
                 display: flex;
                 flex-wrap: wrap;
                 padding: 0;
-                .rolex{
+
+                .rolex {
                     margin: 25px;
                 }
-                .elle{
+
+                .elle {
                     margin: 25px;
                 }
-                .logo-03{
+
+                .logo-03 {
                     margin: auto;
                 }
-                .jubilee{
+
+                .jubilee {
                     margin: 25px;
                 }
-                .triton{
+
+                .triton {
                     margin: auto;
                 }
-                .pandora{
+
+                .pandora {
                     margin: auto;
                 }
             }
         }
     }
 }
+
 // 768
-@media all and (max-width: 768px){
-    .blog_update{
-        .container{
-            .row{
-                .blog_update{
+@media all and (max-width: 768px) {
+    .blog_update {
+        .container {
+            .row {
+                .blog_update {
                     width: 30%;
                     margin: auto;
                     margin-top: 25px;
-                    .detail_blog_update{
+
+                    .detail_blog_update {
                         padding: 0;
-                        .name_of_blog{
+
+                        .name_of_blog {
                             font-size: 22px;
                         }
-                        span{
+
+                        span {
                             margin-right: 0;
                             margin-left: 0;
                         }
-                    } 
+                    }
                 }
             }
-            .category{
-                p{
+
+            .category {
+                p {
                     font-size: 30px;
                 }
             }
-            .blog{
+
+            .blog {
                 margin: 0 -20px;
+
                 .all_blog {
                     margin: auto;
                 }
             }
         }
     }
-    
+
 }
+
 // 576
-@media all and (max-width: 576px){
-    .blog_update{
-        .container{
-            .row{
-                .blog_update{
+@media all and (max-width: 576px) {
+    .blog_update {
+        .container {
+            .row {
+                .blog_update {
                     width: 90%;
                     margin: auto;
                     margin-top: 25px;
                 }
             }
-            .category{
+
+            .category {
                 width: 92%;
-                p{
+
+                p {
                     font-size: 30px;
                     padding-top: 50px;
                 }
             }
-            .blog{
+
+            .blog {
                 .all_blog {
                     margin: auto;
+
                     a {
                         font-size: 30px;
                     }
@@ -351,43 +415,40 @@
             }
         }
     }
+    .brand-detail{
+        width: 30%;
+        margin: auto;
+        margin-top: 15px;
+    }
     .brand {
-        .container{
-            
-            .brand{
+        .container {
+            .brand {
                 display: flex;
                 flex-wrap: wrap;
                 padding: 0;
-                .rolex{
-                    width: 30%;
-                    margin: auto;
-                    margin-top: 15px;
-                    
+
+                .rolex {
+                    .brand-detail;
                 }
-                .elle{
-                    width: 30%;
-                    margin: auto;
-                    margin-top: 15px;
+
+                .elle {
+                    .brand-detail;
                 }
-                .logo-03{
-                    width: 30%;
-                    margin: auto;
-                    margin-top: 15px;
+
+                .logo-03 {
+                    .brand-detail;
                 }
-                .jubilee{
-                    width: 30%;
-                    margin: auto;
-                    margin-top: 15px;
+
+                .jubilee {
+                    .brand-detail;
                 }
-                .triton{
-                    width: 30%;
-                    margin: auto;
-                    margin-top: 15px;
+
+                .triton {
+                    .brand-detail;
                 }
-                .pandora{
-                    width: 30%;
-                    margin: auto;
-                    margin-top: 35px;
+
+                .pandora {
+                    .brand-detail;
                 }
             }
         }
