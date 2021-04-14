@@ -1,5 +1,9 @@
 /*<-----------------------------------3.1 Home_page_content--------------------------------------------->*/
 // 1920
+._flex {
+    display: flex;
+    flex-wrap: wrap;
+}
 .intro {
     .container {
         width: 100%;
@@ -125,16 +129,12 @@
     }
 }
 
-._flex {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 .new_product {
     .container {
         .row {
-            display: flex;
-            flex-wrap: wrap;
+            .flex_100;
             padding: 0 75px;
             box-sizing: border-box;
 
@@ -283,8 +283,7 @@
             }
 
             .new_product-6 {
-                display: flex;
-                flex-wrap: wrap;
+                .flex_x(47%);
 
                 .information {
                     margin-top: -386px;
@@ -326,9 +325,8 @@
         box-sizing: border-box;
 
         .featured_lable {
+            .flex_x(100%);
             height: 223px;
-            display: flex;
-            flex-wrap: wrap;
             margin: 0 -15px;
 
             p {
@@ -365,7 +363,6 @@
         .row {
             display: flex;
             flex-wrap: wrap;
-
             margin: 0 -15px;
         }
 
@@ -373,14 +370,12 @@
             .items {
                 width: 25%;
                 padding: 0 15px;
-                // margin-bottom: -17px;
                 box-sizing: border-box;
             }
 
             .items {
                 .owl-carousel {
-                    display: flex;
-                    flex-wrap: wrap;
+                    .flex_x(100%);
                     z-index: 1;
                     position: relative;
 
@@ -669,7 +664,6 @@
                         .new_collection {
                             font-size: 15px;
                             font-family: 'Cormorant Garamond', serif;
-
                             text-transform: uppercase;
                             letter-spacing: 1.5px;
                         }
@@ -683,7 +677,6 @@
                             color: @yellow-gray;
                         }
                     }
-
                 }
 
                 .new_product-4 {

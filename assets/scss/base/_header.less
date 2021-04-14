@@ -48,7 +48,14 @@
     flex: 20%;
     max-width: 20%;
 }
-
+.flex_x (@x: 0){
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-flex: @arguments;
+    -ms-flex: @arguments;
+    flex: @arguments;
+    max-width: @arguments;
+}
 a {
     text-decoration: none;
     list-style: none;
@@ -232,6 +239,7 @@ a {
     .header {
         .container {
             .row {
+                margin: 0;
                 .logo {
                     width: 90%;
 
