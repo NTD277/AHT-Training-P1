@@ -1723,6 +1723,7 @@
     .intro {
         .container {
             .row {
+                margin: 0 -15px;
                 .item-1 {
                     .item-01 {
                         p:first-of-type {
@@ -1934,6 +1935,7 @@
 
     .featured_items {
         .container {
+            padding: 0 15px;
             .featured_lable {
                 height: 100px;
 
@@ -1948,8 +1950,9 @@
             }
 
             .featured_items {
+                margin: 0;
                 .items {
-                    width: 65%;
+                    width: 100%;
                     margin: auto;
                     padding: 0;
                     .cloned {
@@ -1960,28 +1963,21 @@
 
                     .information-featured {
                         width: 100%;
-
+                        
                         .add_to_cart {
                             width: 52%;
+                            flex: auto;
 
                             a {
                                 font-size: 13px;
                             }
                         }
 
-                        .like {
+                        .like, .compare, .search  {
                             width: 15%;
-                        }
-
-                        .compare {
-                            width: 15%;
-                        }
-
-                        .search {
-                            width: 15%;
+                            flex: auto;
                         }
                     }
-
                     .name_price_items {
                         p:first-of-type {
                             font-size: 13px;
